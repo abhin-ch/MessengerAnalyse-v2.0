@@ -12,6 +12,7 @@ import itertools
 import functools
 import operator
 import sys
+import os.path # for file path
 
 # No Python Cache
 sys.dont_write_bytecode = True
@@ -19,16 +20,17 @@ sys.dont_write_bytecode = True
 # Get the Path 
 
 def get_filename():
-    filename = glob('..//Analysis 2.0/uploads/message_*.json')
+    f = os.path.join('.', 'uploads', 'message_*.json')
+    filename = glob(f)
     return filename
 
-def merge_message(filename ):
+def merge_message(filename):
     ''' This will extract message the Json Files and 
         output and save the merged messages'''
     # Intializing
     data = []
     num_file = 0
-    msg = "..//Analysis 2.0/uploads/message.json"
+    
     # Interate through the files
     for file in filename:
         num_file += 1
@@ -40,18 +42,20 @@ def merge_message(filename ):
             data = data + message
     print("This is my data "+ str(len(data)))
     json_object = json.dumps(data, indent = 10) 
-    with open('..//Analysis 2.0/uploads\\message.json', "w") as outfile: 
+
+    # write json file object
+    msg = os.path.join('.', 'uploads', 'message.json')
+    with open(msg, "w") as outfile: 
         outfile.write(json_object)
-    return None
 
 def merge_file(filename ):
     ''' This will Merge the Json Files and 
         output and save the merged file'''
     # intializing
     data = {}
-    fil_url = '..//Analysis 2.0/uploads\\message_1.json'
-    msg_url = '..//Analysis 2.0/uploads\\message.json'
-    # data_url = '..//Analysis 2.0/data\\data.json'
+    
+    fil_url = os.path.join('.', 'uploads', 'message_1.json')
+    msg_url = os.path.join('.', 'uploads', 'message.json')
     # Open file 
     # -> Making a proper file
     with open(msg_url) as msg:
@@ -75,7 +79,8 @@ def merge_file(filename ):
 def delete_files(filename):
     ''' Deleteing the files from the folder 
     '''
-    message = '..//Analysis 2.0/uploads\\message.json'
+    
+    message = os.path.join('.', 'uploads', 'message.json')
     os.remove(message)
     for file in filename:
         os.remove(file)
@@ -87,7 +92,3 @@ def main():
     json_file = merge_file(filename)
     delete_files(filename)
     return json_file
-
-
-# if __name__ == "__main__":
-#      main()
