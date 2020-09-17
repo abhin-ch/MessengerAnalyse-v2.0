@@ -5,14 +5,10 @@ DESCRIPTION: This script edits the file uploaded by the user. It will merge them
 """
 from glob import glob
 import json 
-from itertools import chain
-from operator import add
 import os
-import itertools
-import functools
-import operator
 import sys
 import os.path # for file path
+
 
 # No Python Cache
 sys.dont_write_bytecode = True
