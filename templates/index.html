@@ -1,80 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "base.html" %}
 
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
-<head>
-  <meta charset="utf-8" />
-  <!-- Images -->
-  <link rel="apple-touch-icon" sizes="76x76" href="{{ url_for('static', filename='img/apple-icon.png')}}">
-  <link rel="icon" type="image/png"   href="{{ url_for('static', filename='img/favicon.png')}}">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <title>Messenger Data Ananlysis</title>
-  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
-  <!-- Extra details for Live View on GitHub Pages -->
-  <!-- Canonical SEO -->
-  <link rel="canonical" href="https://www.creative-tim.com/product/paper-dashboard-2-pro" />
-  <!--  Social tags      -->
-  <meta name="keywords" content="creative tim, html dashboard, html css dashboard, web dashboard, bootstrap 4 dashboard, bootstrap 4, css3 dashboard, bootstrap 4 admin, paper dashboard bootstrap 4 dashboard, frontend, responsive bootstrap 4 dashboard, paper design, paper dashboard bootstrap 4 dashboard">
-  <meta name="description" content="Paper Dashboard PRO is a beautiful Bootstrap 4 admin dashboard with a large number of components, designed to look beautiful, clean and organized. If you are looking for a tool to manage dates about your business, this dashboard is the thing for you.">
-  <!-- Schema.org markup for Google+ -->
-  <meta itemprop="name" content="Paper Dashboard PRO by Creative Tim">
-  <meta itemprop="description" content="Paper Dashboard PRO is a beautiful Bootstrap 4 admin dashboard with a large number of components, designed to look beautiful, clean and organized. If you are looking for a tool to manage dates about your business, this dashboard is the thing for you.">
-  <meta itemprop="image" content="../../../s3.amazonaws.com/creativetim_bucket/products/84/opt_pd2p_thumbnail.jpg">
-  <!-- Twitter Card data -->
-  <meta name="twitter:card" content="product">
-  <meta name="twitter:site" content="@creativetim">
-  <meta name="twitter:title" content="Paper Dashboard PRO by Creative Tim">
-  <meta name="twitter:description" content="Paper Dashboard PRO is a beautiful Bootstrap 4 admin dashboard with a large number of components, designed to look beautiful, clean and organized. If you are looking for a tool to manage dates about your business, this dashboard is the thing for you.">
-  <meta name="twitter:creator" content="@creativetim">
-  <meta name="twitter:image" content="../../../s3.amazonaws.com/creativetim_bucket/products/84/opt_pd2p_thumbnail.jpg">
-  <!-- Open Graph data -->
-  <meta property="fb:app_id" content="655968634437471">
-  <meta property="og:title" content="Paper Dashboard PRO by Creative Tim" />
-  <meta property="og:type" content="article" />
-  <meta property="og:url" content="https://creativetimofficial.github.io/paper-dashboard-2-pro/examples/dashboard.html" />
-  <meta property="og:image" content="../../../s3.amazonaws.com/creativetim_bucket/products/84/opt_pd2p_thumbnail.jpg" />
-  <meta property="og:description" content="Paper Dashboard PRO is a beautiful Bootstrap 4 admin dashboard with a large number of components, designed to look beautiful, clean and organized. If you are looking for a tool to manage dates about your business, this dashboard is the thing for you." />
-  <meta property="og:site_name" content="Creative Tim" />
-  <!--     Fonts and icons     -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
-  <link href="{{ url_for('static', filename='css/fontawesome.min.css')}}" rel="stylesheet">
-  <!-- CSS Files -->
-  <link href="{{ url_for('static', filename='css/bootstrap.min.css')}}" rel="stylesheet" />
-  <link href="{{ url_for('static', filename='css/paper-dashboard.min1036.css') }}" rel="stylesheet" />
-  <link href="{{ url_for('static', filename='css/all.min.css') }}" rel="stylesheet" />
-  <link href="{{ url_for('static', filename='css/fontawesome.min.css') }}" rel="stylesheet" />
-  <!-- Java Script and Data-->
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
-  <script src="{{ url_for('static', filename='js/scripts/get_data.js')}}"></script>
-  <!--J-query  -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  <script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
-<!-- Chart Js -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
-<script src="{{ url_for('static', filename='js/plugins/text-donout.js')}}"></script>
-<!-- Chart Scripts -->
-<script src="{{ url_for('static', filename='js/scripts/agreeableness.js')}}"></script>
-<script src="{{ url_for('static', filename='js/scripts/consci.js')}}"></script>
-<script src="{{ url_for('static', filename='js/scripts/openness.js')}}"></script>
-<script src="{{ url_for('static', filename='js/scripts/emotional.js')}}"></script>
-<script src="{{ url_for('static', filename='js/scripts/emojiSplitter.js')}}"></script>
-<!-- End of Head :) -->
-</head>
+
+{% block main_content %}
 <body class="">
   <script src="{{ url_for('static', filename='js/scripts/color.js')}}"></script>
   <div class="wrapper ">
     <div class="main-panel">
       <!-- Navbar -->
-
         <!-- END nav -->
       <!-- End Navbar -->
 
-
-
-
-      <script></script>
       <!-- Start Content -->
       <div class="content">
 
@@ -112,7 +47,6 @@
                 <div class="row">
                   <div class="col-5 col-md-4">
                   <!--Place Icon-->
-                 <!-- <img src="{{ url_for('static', filename='img/message.png')}}"  width="500" height="600">-->
 
                   </div>
                   <div class="col-9 col-md-8">
@@ -220,7 +154,7 @@
         </div>
         </div>
         
-<!-- Personality Insight -->
+  <!-- Personality Insight -->
   <div class="row">
     <div class="col-md-12 ml-auto mr-auto">
       <div class="card">
@@ -520,7 +454,6 @@
     </div>
   </div>
 
-  </div>
   <script src="{{ url_for('static', filename='js/scripts/run_graphs.js')}}"></script>
   <!--   Core JS Files   -->
   <script src="{{ url_for('static', filename='js/core/jquery.min.js')}}"></script>
@@ -567,5 +500,7 @@
   <script src="{{ url_for('static', filename='js/plugins/bootstrap-notify.js')}}"></script>
   <!-- Sharrre libray -->
   <script src="{{ url_for('static', filename='demo/jquery.sharrre.js')}}"></script>
+
 </body>
-</html>
+{% endblock %}
+
