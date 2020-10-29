@@ -4,6 +4,10 @@ from werkzeug.utils import secure_filename
 from src.formator import main as formator
 from src.analysis import main as analysis
 
+import time # testing speed
+
+import src.db as db # database
+
 app=Flask(__name__)
 
 app.secret_key = "secret key"
@@ -21,11 +25,14 @@ if not os.path.isdir(UPLOAD_FOLDER):
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 # Allowed extension you can set your own
-ALLOWED_EXTENSIONS = set(['json'])
+ALLOWED_EXTENSIONS = {'json'}
 
 
 def allowed_file(filename):
-    return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+    """ Return True if file is appropriate type in ALLOWED_EXTENSIONS
+    """
+    return '.' in filename and \
+        filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 
 @app.route('/')
@@ -48,10 +55,36 @@ def upload_file():
             if file and allowed_file(file.filename):
                 filename = secure_filename(file.filename)
                 file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+
+
         # Format the Uploaded Files -> Combine, Store and Delete -src/formator.py
+        start = time.time()
         data = formator()
+        end = time.time() - start
+
+        # debug
+        print('Formator time:', end)
+
+        # TODO: upload data to SQLite Database
+        start = time.time()
+        db.create_tables()
+        db.insert_to_database(data)
+        end = time.time() - start
+        print("Database insert:", end)
+        db.test()
+
+
         # Run the analysis -src/analysis.py
+        start = time.time()
         report = analysis(data)
+        end = time.time() - start
+
+        # delete database tables
+        # db.delete_database()
+
+        # debug
+        print('Analysis time:', end)
+
         return render_template('index.html', data = report)
 
 

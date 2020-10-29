@@ -35,7 +35,7 @@ def merge_message(filename):
             d = json.load(msg)
             message = d['messages']
             data = data + message
-    print("This is my data "+ str(len(data)))
+
     json_object = json.dumps(data, indent = 10) 
 
     # write json file object
@@ -55,11 +55,6 @@ def merge_file(filename):
         message = json.load(msg)
         data['messages'] = message
 
-    # Write file 
-    # json_object = json.dumps(data, indent = 4) 
-    # with open(data_url, "w") as outfile: 
-    #     outfile.write(json_object)
-    print("The return type is:  "+ str(type(data)))
     return data
 
 def delete_files(filename):
@@ -68,7 +63,6 @@ def delete_files(filename):
     os.remove(MESSAGE_PATH)
     for file in filename:
         os.remove(file)
-
 
 def main():
     filename = get_filename()

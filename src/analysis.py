@@ -416,18 +416,5 @@ def main(d):
         ]
     for element in data:
         summary.update(element)
-    # with open("analysis.json", "w") as outfile:
-    #      outfile.write(json.dumps(summary))
+
     return json.dumps(summary)
-
-# if __name__ == "__main__":
-#     with open('uploads/message000.json') as msg:
-#         message = json.load(msg)
-#     # Getting the analytics.
-#     o = main(message)
-
-#     obj = json.dumps(o, indent = 4)
-#     with open("uploads/analysis.json", "w") as outfile:
-#         outfile.write(obj)
-
-

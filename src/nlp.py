@@ -9,12 +9,20 @@ import pandas as pd
 import random
 import sys
 from unidecode import unidecode
+
 # Text-Generator
 import src.text_generator as generator 
+
+
+
 # Personality Insight SDK
 from ibm_watson import PersonalityInsightsV3
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 from ibm_watson import ApiException
+
+
+
+
 # IBM WATSON API Authentication 
 url = 'https://api.jp-tok.personality-insights.watson.cloud.ibm.com/instances/1874f80a-f372-445a-bdd6-9dde92eaa49b'
 apikey = 'BUi7V8DHWNLsmdiaAX8ILovvmKI4dZImb7C0YOEzSqi9'
@@ -129,13 +137,3 @@ def execute2(d):
     inner_dict["sub_interst"] = interst
     e.update(inner_dict)
     return e
-
-
-
-# if __name__ == "__main__":
-#     with open('uploads/message000.json') as msg:
-#         message = json.load(msg)
-#     output = execute(message)
-#     #obj = json.dumps(output, indent = 2) 
-#     with open('uploads/analysis.json', 'w', encoding='utf-8') as f:
-#         json.dump(output, f, ensure_ascii=False, indent=4)
