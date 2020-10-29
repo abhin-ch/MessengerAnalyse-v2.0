@@ -256,7 +256,7 @@
             </div>
             <div class="col-sm-5">
               <div class="pull-right">
-                <button class="btn btn-success btn-round btn-icon btn-sm">
+                <button class="btn btn-success btn-round btn-icon btn-sm"  data-toggle="modal" data-target="#message_per_time">
                   <i class="fas fa-info"></i>
                 </button>
               </div>
@@ -291,7 +291,7 @@
             </div>
             <div class="col-sm-5">
               <div class="pull-right">
-                <button class="btn btn-danger btn-round btn-icon btn-sm">
+                <button class="btn btn-danger btn-round btn-icon btn-sm" data-toggle="modal" data-target="#message_per_week">
                   <i class="fas fa-info"></i>
                 </button>
               </div>
@@ -465,7 +465,52 @@
   </div>
 </div>
 <!--  End Modal -->
-
+<!-- Month -->
+<div class="modal fade" id="message_per_time" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header justify-content-center">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <i></i>
+        </button>
+        <h4 class="title title-up">Month</h4>
+      </div>
+      <div class="modal-body">
+        <p style="text-align:center;">
+          This graph gives the total number of messages sent every hour. The time is in Military Time (24hrs) </p>
+      </div>
+      <div class="modal-footer">
+        <div class="right-side">
+          <button type="button" class="btn btn-default btn-link" data-dismiss="modal">Thanks !</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--  End Modal -->
+<!-- Week -->
+<div class="modal fade" id="message_per_week" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header justify-content-center">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <i></i>
+        </button>
+        <h4 class="title title-up">Month</h4>
+      </div>
+      <div class="modal-body">
+        <p style="text-align:center;">
+          This graph gives the total number of messages sent every week for all the years. </p>
+      </div>
+      <div class="modal-footer">
+        <div class="right-side">
+          <button type="button" class="btn btn-default btn-link" data-dismiss="modal">Thanks !</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--  End Modal -->
 
     <!-- Footer -->
     <footer class="footer footer-black  footer-white ">
