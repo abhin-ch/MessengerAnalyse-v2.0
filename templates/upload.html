@@ -61,10 +61,11 @@
                 <li><a href="#about-section" class="nav-link">About Us</a></li>
                 <li><a href="#contact-section" class="nav-link">Contact</a></li>
                 <li>
-                  <form method="get" action="{{ url_for('static', filename='test_file/message_1.json')}}" >
-                    <button class="btn btn-outline-primary"type="submit">Test File</button>
+                  <form method="get" action= "{{ url_for('static', filename='test_file/message_1.json')}}" >
+                    <button class="btn btn-outline-primary" type="submit">Test File</button>
                  </form>
                 </li>
+                <li><a href="{{ url_for('static', filename='test_file/message_1.json')}}" class="btn btn-outline-primary" >Download2</a></li>
               </ul>
             </nav>
           </div>
