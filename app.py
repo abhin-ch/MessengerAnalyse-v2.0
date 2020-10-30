@@ -67,11 +67,12 @@ def upload_file():
 
         # TODO: upload data to SQLite Database
         start = time.time()
-        db.create_tables()
-        db.insert_to_database(data)
+
+        # init db instance
+        db._init('messages.db', data)
         end = time.time() - start
-        print("Database insert:", end)
-        db.test()
+        print("Database init(create table, insert):", end)
+
 
 
         # Run the analysis -src/analysis.py

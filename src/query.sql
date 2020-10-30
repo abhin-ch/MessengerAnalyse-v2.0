@@ -1,5 +1,5 @@
 -- select all participants
-SELECT * from participants;
+SELECT *, 0 from participants;
 
 -- select number of messages sent
 SELECT COUNT(content) from messages;
@@ -27,13 +27,39 @@ FROM
     SELECT strftime('%j', timestamp_ms / 1000, 'unixepoch') AS day 
 
     FROM messages
-) GROUP BY day ORDER BY day ;
+) GROUP BY day ORDER BY day;
 
 -- day of week 0-sunday
-SELECT day, count(day)
+SELECT CASE day
+    WHEN '0' THEN 'Sunday'
+    WHEN '1' THEN 'Monday'
+    WHEN '2' THEN 'Tuesday'
+    WHEN '3' THEN 'Wednesday'
+    WHEN '4' THEN 'Thursday'
+    WHEN '5' THEN 'Friday'
+    WHEN '6' THEN 'Saturday'
+    END,
+    round(count(day)*(100.0) / (SELECT COUNT(timestamp_ms) from messages), 2) as percentage
 FROM 
 (
     SELECT strftime('%w', timestamp_ms / 1000, 'unixepoch') AS day 
 
     FROM messages
-) GROUP BY day ORDER BY day ;
+) GROUP BY day ORDER BY day;
+
+
+SELECT day, count(day)
+FROM 
+(
+    SELECT strftime('%H', timestamp_ms / 1000, 'unixepoch', 'localtime') AS day 
+
+    FROM messages
+) GROUP BY day ORDER BY day;
+
+SELECT day, count(day)
+FROM 
+(
+    SELECT strftime('%Y', timestamp_ms / 1000, 'unixepoch', 'localtime') AS day 
+
+    FROM messages
+) GROUP BY day ORDER BY day;

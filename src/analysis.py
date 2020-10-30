@@ -52,12 +52,11 @@ def get_message_by_day_year(d):
     }
     """
 
-
     q = """
     SELECT day, count(day)
         FROM 
         (
-            SELECT strftime('%j', timestamp_ms / 1000, 'unixepoch') AS day 
+            SELECT strftime('%j', timestamp_ms / 1000, 'unixepoch', 'localtime') AS day 
 
             FROM messages
         ) GROUP BY day ORDER BY day
@@ -84,7 +83,7 @@ def get_message_by_day_week(d):
         count(day)
     FROM 
     (
-        SELECT strftime('%w', timestamp_ms / 1000, 'unixepoch') AS day 
+        SELECT strftime('%w', timestamp_ms / 1000, 'unixepoch', 'localtime') AS day 
 
         FROM messages
     ) GROUP BY day ORDER BY day;
@@ -113,7 +112,7 @@ def get_message_by_day_week_percent(d):
         round(count(day)*(100.0) / (SELECT COUNT(timestamp_ms) from messages), 2) as percentage
     FROM 
     (
-        SELECT strftime('%w', timestamp_ms / 1000, 'unixepoch') AS day 
+        SELECT strftime('%w', timestamp_ms / 1000, 'unixepoch', 'localtime') AS day 
 
         FROM messages
     ) GROUP BY day ORDER BY day;
@@ -185,14 +184,32 @@ def get_message_by_month(d):
         "month": int
     }
     """
-    df = pd.DataFrame.from_dict(d["messages"])
-    df['timestamp_ms'] = pd.to_datetime(df['timestamp_ms'], unit='ms')
-    d = {'January': 0, 'February': 0, 'March':0, 'April':0, 'May':0, 'June':0,
-    'July':0, 'August':0, 'September':0, 'October':0, 'November':0, 'December':0}
-    for data in df['timestamp_ms']:
-        v = data.month_name()
-        d[v] += 1
-    return {"message_by_month_count": json.dumps(d)}
+
+    q = """
+    SELECT CASE day
+        WHEN '1' THEN 'January'
+        WHEN '2' THEN 'February'
+        WHEN '3' THEN 'March'
+        WHEN '4' THEN 'April'
+        WHEN '5' THEN 'May'
+        WHEN '6' THEN 'June'
+        WHEN '7' THEN 'July'
+        WHEN '8' THEN 'August'
+        WHEN '9' THEN 'September'
+        WHEN '10' THEN 'October'
+        WHEN '11' THEN 'November'
+        WHEN '12' THEN 'December'
+        END
+    , count(day)
+        FROM 
+        (
+            SELECT strftime('%m', timestamp_ms / 1000, 'unixepoch', 'localtime') AS day 
+
+            FROM messages
+        ) GROUP BY day ORDER BY day;
+    """
+    data = {k:v for k,v in db.select(q)}
+    return {"message_by_month_count": json.dumps(data)}
 
 def get_message_by_month_group(d):
     """ Return messages by month
@@ -242,16 +259,19 @@ def get_message_by_hour(d):
         "hour": int
     }
     """
-    df = pd.DataFrame.from_dict(d["messages"])
-    df['timestamp_ms'] = pd.to_datetime(df['timestamp_ms'], unit='ms')
-    d = dict()
-    for data in df['timestamp_ms']:
-        v = (data.hour - 5) % 24
-        if v in d:
-            d[v] += 1
-        else:
-            d[v] = 1
-    return {"message_by_hour_count": json.dumps(d)}
+
+    q = """
+    SELECT day, count(day)
+        FROM 
+        (
+            SELECT strftime('%H', timestamp_ms / 1000, 'unixepoch', 'localtime') AS day 
+
+            FROM messages
+        ) GROUP BY day ORDER BY day;
+    """
+
+    data = {k:v for k,v in db.select(q)}
+    return {"message_by_hour_count": json.dumps(data)}
 
 def get_message_by_year(d):
     """ Return message count per year
@@ -259,16 +279,19 @@ def get_message_by_year(d):
         "year": int
     }
     """
-    df = pd.DataFrame.from_dict(d["messages"])
-    df['timestamp_ms'] = pd.to_datetime(df['timestamp_ms'], unit='ms')
-    d = dict()
-    for data in df['timestamp_ms']:
-        v = data.year
-        if v in d:
-            d[v] += 1
-        else:
-            d[v] = 1
-    return {"message_by_year_count": json.dumps(d)}
+
+    q = """
+    SELECT day, count(day)
+        FROM 
+        (
+            SELECT strftime('%j', timestamp_ms / 1000, 'unixepoch', 'localtime') AS day 
+
+            FROM messages
+        ) GROUP BY day ORDER BY day;
+    """
+    data = {k:v for k,v in db.select(q)}
+    return {"message_by_year_count": json.dumps(data)}
+
 
 def get_message_by_year_percent(d):
     """ Return message count per year
