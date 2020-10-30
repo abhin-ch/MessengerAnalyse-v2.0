@@ -5,16 +5,20 @@ DESCRIPTION: This script in the backend to get all the analysis. It uses the pow
 """
 import json
 import pandas as pd
+
 import src.nlp as ex
 
-def get_participants(d):
+
+from src.db import DataGateway # importing database class
+
+db = DataGateway('messages.db')
+
+def get_participants(d=None):
     """ list of all participants in group chat
     """
-    p = {person['name']:0 for person in d['participants']}
-    for msg in d['messages']:
-        if msg['sender_name'] not in p:
-            p[msg['sender_name']] = 0
-    return p
+    q = 'SELECT *, 0 from participants'
+    data = {k:v for k,v in db.select(q)}
+    return data
 
 def get_message_count(d):
     """ Return total message count per person
@@ -23,12 +27,10 @@ def get_message_count(d):
         "name" : int
     }
     """
-    # participants
-    p = get_participants(d)
-    for msg in d['messages']:
-        p[msg['sender_name']] += 1
-    # convert to json
-    return {"message_count": json.dumps(p)}
+
+    q = 'SELECT sender_name, COUNT(content) FROM messages GROUP BY sender_name;'
+    data = {k:v for k,v in db.select(q)}
+    return {"message_count": json.dumps(data)}
 
 
 def get_word_count(d):
@@ -38,13 +40,10 @@ def get_word_count(d):
         "name" : int
     }
     """
-    # participants
-    p = get_participants(d)
-    for msg in d['messages']:
-        if 'content' in msg:
-            p[msg['sender_name']] += len(msg['content'].split())
-    # convert to json
-    return {"word_count": json.dumps(p)}
+
+    q = "SELECT sender_name, SUM(length(content) - length(replace(content, ' ', '')) + 1) from messages group by sender_name;"
+    data = {k:v for k,v in db.select(q)}
+    return {"word_count": json.dumps(data)}
 
 def get_message_by_day_year(d):
     """ Return total messages by day in year
@@ -52,16 +51,19 @@ def get_message_by_day_year(d):
         "day": int
     }
     """
-    df = pd.DataFrame.from_dict(d["messages"])
-    df['timestamp_ms'] = pd.to_datetime(df['timestamp_ms'], unit='ms')
-    d = {i:0 for i in range(1,365)}
-    for data in df['timestamp_ms']:
-        v = data.dayofyear
-        if v in d:
-            d[v] += 1
-        else:
-            d[v] = 1
-    return {"message_by_day_year_count": json.dumps(d)}
+
+
+    q = """
+    SELECT day, count(day)
+        FROM 
+        (
+            SELECT strftime('%j', timestamp_ms / 1000, 'unixepoch') AS day 
+
+            FROM messages
+        ) GROUP BY day ORDER BY day
+    """
+    data = {k:v for k,v in db.select(q)}
+    return {"message_by_day_year_count": json.dumps(data)}
 
 def get_message_by_day_week(d):
     """ Return message by day of week
@@ -69,14 +71,27 @@ def get_message_by_day_week(d):
         "weekday": int
     }
     """
-    df = pd.DataFrame.from_dict(d["messages"])
-    df['timestamp_ms'] = pd.to_datetime(df['timestamp_ms'], unit='ms')
-    d = {'Monday':0, 'Tuesday':0, 'Wednesday':0, 'Thursday':0,'Friday':0,'Saturday':0, 'Sunday':0}
-    for data in df['timestamp_ms']:
-        # Monday == 0
-        v = data.day_name()
-        d[v] += 1
-    return {"message_by_day_week_count": json.dumps(d)}
+    q = """
+    SELECT CASE day
+        WHEN '0' THEN 'Sunday'
+        WHEN '1' THEN 'Monday'
+        WHEN '2' THEN 'Tuesday'
+        WHEN '3' THEN 'Wednesday'
+        WHEN '4' THEN 'Thursday'
+        WHEN '5' THEN 'Friday'
+        WHEN '6' THEN 'Saturday'
+        END,
+        count(day)
+    FROM 
+    (
+        SELECT strftime('%w', timestamp_ms / 1000, 'unixepoch') AS day 
+
+        FROM messages
+    ) GROUP BY day ORDER BY day;
+    """
+    data = {k:v for k,v in db.select(q)}
+    return {"message_by_day_week_count": json.dumps(data)}
+
 
 def get_message_by_day_week_percent(d):
     """ Return message by day of week
@@ -84,18 +99,27 @@ def get_message_by_day_week_percent(d):
         "weekday": int
     }
     """
-    df = pd.DataFrame.from_dict(d["messages"])
-    df['timestamp_ms'] = pd.to_datetime(df['timestamp_ms'], unit='ms')
-    d = {'Monday':0, 'Tuesday':0, 'Wednesday':0, 'Thursday':0,'Friday':0,'Saturday':0, 'Sunday':0}
-    for data in df['timestamp_ms']:
-        # Monday == 0
-        v = data.day_name()
-        d[v] += 1
-    total = sum(d.values())
-    for k in list(d):
-        d[k] /= total
-        d[k] = round(d[k], 2)
-    return {"message_by_day_week_percent": json.dumps(d)}
+
+    q = """
+    SELECT CASE day
+        WHEN '0' THEN 'Sunday'
+        WHEN '1' THEN 'Monday'
+        WHEN '2' THEN 'Tuesday'
+        WHEN '3' THEN 'Wednesday'
+        WHEN '4' THEN 'Thursday'
+        WHEN '5' THEN 'Friday'
+        WHEN '6' THEN 'Saturday'
+        END,
+        round(count(day)*(100.0) / (SELECT COUNT(timestamp_ms) from messages), 2) as percentage
+    FROM 
+    (
+        SELECT strftime('%w', timestamp_ms / 1000, 'unixepoch') AS day 
+
+        FROM messages
+    ) GROUP BY day ORDER BY day;
+    """
+    data = {k:v for k,v in db.select(q)}
+    return {"message_by_day_week_percent": json.dumps(data)}
 
 def get_message_by_day_week_group(d):
     """ Return message by day of week
@@ -342,22 +366,18 @@ def get_message_by_day_month(d):
     return {"message_by_day_month_count": json.dumps(d)}
 
 def total_message(d):
-    mes = get_message_count(d)
-    sum = 0
-    count = json.loads(mes['message_count'])
-    for name in count:
-        num = count[name]
-        sum = sum + num
-    return {"total_message": json.dumps(sum)}
+    q = """
+    SELECT COUNT(sender_name) from messages;
+    """
+    data = db.select(q)[0]
+    return {"total_message": json.dumps(data[0])}
 
 def total_word(d):
-    mesp = get_word_count(d)
-    sum = 0
-    mes = json.loads(mesp['word_count'])
-    for ele in mes:
-        num = mes[ele]
-        sum = sum + num
-    return {"total_word": json.dumps(sum)}
+    
+    q = """SELECT SUM(length(content) - length(replace(content, ' ', '')) + 1)
+    FROM messages"""
+    data = db.select(q)[0]
+    return {"total_word": data[0]}
 
 def total_call(d):
     # participants
@@ -418,3 +438,9 @@ def main(d):
         summary.update(element)
 
     return json.dumps(summary)
+
+if __name__ == "__main__":
+    # with open('../data.json', 'r') as data:
+    #     d = json.load(data)
+    #     print(get_participants(d))
+    pass
