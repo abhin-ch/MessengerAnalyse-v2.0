@@ -8,6 +8,8 @@ import time # testing speed
 
 import src.db as db # database
 
+from shutil import copy
+
 app=Flask(__name__)
 
 app.secret_key = "secret key"
@@ -68,7 +70,7 @@ def upload_file():
         # TODO: upload data to SQLite Database
         start = time.time()
 
-        # init db instance
+        # create tables, and insert data into database
         db._init('messages.db', data)
         end = time.time() - start
         print("Database init(create table, insert):", end)
@@ -88,6 +90,21 @@ def upload_file():
 
         return render_template('index.html', data = report)
 
+@app.route('/romeo_juliet')
+def example_file_1():
+    # collect test file
+    f = os.path.join('.', 'static', 'test_file', 'message_1.json')
+
+    # copy test file to uploads folder
+    copy(f, os.path.join('.', 'uploads'))
+
+    # # Format the Uploaded Files -> Combine, Store and Delete -src/formator.py
+    data = formator()
+    db._init('messages.db', data)
+
+    # # Run the analysis -src/analysis.py
+    report = analysis(data)
+    return render_template('index.html', data = report)
 
 if __name__ == "__main__":
     app.run(host='127.0.0.1',port=5000,debug=False,threaded=True)
