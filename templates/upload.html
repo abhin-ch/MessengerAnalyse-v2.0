@@ -106,25 +106,31 @@
                 <p class="mb-5">We can analysis your facebook messenger data, to give you a better sence of your personlity. Let us answer the question you might have wondered about.</p>
 
 
-                <form method="post" action="/" enctype="multipart/form-data">
-                  <dl >
+                <form method="post" id="upload_form" action="/" enctype="multipart/form-data">
+                  <dl>
                     <input type="file" id="file" name="files[]" multiple="true" autocomplete="off" required hidden>
                     <label for="file" class="btn btn-primary mr-2 mb-2"> 
                       Upload Messages
                     </label>
                     <script> 
                     var loader = function(e) {
-                    let file = e.target.files;
-                    let show = "<span>Selected file : </span>"+file[0].name ;
-                    let output = document.getElementById("selector");
-                    output.innerHTML = show;
-                    output.classList.add("active");
-                    };
+                      let file = e.target.files;
+                      let show = "<span>Selected file : </span>"+file[0].name ;
+                      let output = document.getElementById("selector");
+                      output.innerHTML = show;
+                      output.classList.add("active");
+                    }
     
                     //add events
     
                     let fileInput = document.getElementById("file");
                     fileInput.addEventListener("change", loader);
+                    
+                    document.getElementById("upload_form").onchange = function() {
+                        // submitting the form
+                        document.getElementById("upload_form").submit();
+                    };
+                    
                   </script>
                   </dl>
                   <p>
