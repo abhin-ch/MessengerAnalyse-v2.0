@@ -8,7 +8,7 @@ for (var i = 0; i < c_name.length; i++) {
     console.log(list_name_colour)
     console.log("This is the color of i")
     console.log(list_name_colour[i])
-    dict = {label:c_name[i], order:1 ,borderColor: list_name_colour[i],backgroundColor: list_name_colour[i] ,fill:false ,data:c_data[i]};
+    var dict = {label:c_name[i], order:1 ,borderColor: list_name_colour[i],backgroundColor: list_name_colour[i] ,fill:false ,data:c_data[i]};
     lab.push(dict);
 }
 console.log(lab);

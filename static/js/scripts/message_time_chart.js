@@ -4,7 +4,7 @@ var d_data = Object.values(msg_by_time);
 var ctx = document.getElementById('time').getContext('2d');
 var lab3 = [];
 for (var i = 0; i < d_name.length; i++) {
-    dict = {label:d_name[i], backgroundColor: list_name_colour[i], borderColor: list_name_colour[i] ,data:d_data[i]};
+    var dict = {label:d_name[i], backgroundColor: list_name_colour[i], borderColor: list_name_colour[i] ,data:d_data[i]};
     lab3.push(dict);
 }
 console.log("Hey Please Look Here");
