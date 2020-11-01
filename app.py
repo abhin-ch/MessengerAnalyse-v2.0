@@ -2,6 +2,7 @@ import os
 from flask import Flask, flash, request, redirect, render_template
 from werkzeug.utils import secure_filename
 from src.formator import main as formator
+from src.formator import get_filename
 from src.analysis import main as analysis
 
 import time # testing speed
@@ -52,11 +53,12 @@ def upload_file():
             return redirect(request.url)
 
         files = request.files.getlist('files[]')
-
-        for file in files:
-            if file and allowed_file(file.filename):
-                filename = secure_filename(file.filename)
-                file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+        
+        for i, f in enumerate(files):
+            if f and allowed_file(f.filename):
+                # fname = secure_filename(f.filename)
+                fname = "675676476587585856567v{}.json"
+                f.save(os.path.join(app.config['UPLOAD_FOLDER'], fname.format(i)))
 
 
         # Format the Uploaded Files -> Combine, Store and Delete -src/formator.py
@@ -90,10 +92,11 @@ def upload_file():
 
         return render_template('index.html', data = report)
 
-@app.route('/romeo_juliet')
-def example_file_1():
+def example(path: str):
+    """ return the page given an example path to a file
+    """
     # collect test file
-    f = os.path.join('.', 'static', 'test_file', 'shakesphere_romeo_juliet.json')
+    f = os.path.join('.', 'static', 'test_file', path)
 
     # copy test file to uploads folder
     copy(f, os.path.join('.', 'uploads'))
@@ -108,25 +111,19 @@ def example_file_1():
     # delete database
     db.delete_database('messages.db')
     return render_template('index.html', data = report)
+
+@app.route('/romeo_juliet')
+def example_file_1():
+    return example('shakesphere_romeo_juliet.json')
 
 @app.route('/theoffice')
 def example_file_2():
-    # collect test file
-    f = os.path.join('.', 'static', 'test_file', 'theoffice.json')
+    return example('theoffice.json')
+    
 
-    # copy test file to uploads folder
-    copy(f, os.path.join('.', 'uploads'))
-
-    # # Format the Uploaded Files -> Combine, Store and Delete -src/formator.py
-    data = formator()
-    db._init('messages.db', data)
-
-    # # Run the analysis -src/analysis.py
-    report = analysis(data)
-
-    # delete database
-    db.delete_database('messages.db')
-    return render_template('index.html', data = report)
+@app.route('/realconvo')
+def example_file_3():
+    return example('Anthony_Abhi.json')
 
 if __name__ == "__main__":
     app.run(host='127.0.0.1',port=5000,debug=False,threaded=True)
