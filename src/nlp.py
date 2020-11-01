@@ -120,7 +120,7 @@ def execute2(d):
     progress_bar = get_participants(d)
     throw_backs = get_participants(d)
     interst = get_participants(d)
-    open('personaility.txt', 'w').close()
+    # open('personaility.txt', 'w').close()
     for name in script:
         throw_backs[name] = throw_back(script[name])        
         p = personality_insight_user(str(script[name]))
