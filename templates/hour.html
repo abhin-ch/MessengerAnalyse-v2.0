@@ -1,0 +1,31 @@
+<div class="row">
+    <div class="col-md-12">
+      <div class="card ">
+        <div class="card-header ">
+          <h5 class="card-title">Hour</h5>
+          <p class="card-category">Messages sent per Hour</p>
+        </div>
+        <div class="card-body ">
+          <!-- Canvas -->
+          <canvas id=time width="400" height="80"></canvas>
+        </div>
+        <script src="{{ url_for('static', filename='js/scripts/message_time_chart.js')}}"></script>
+
+        <div class="card-footer">
+          <hr>
+          <div class="row">
+            <div class="col-sm-7">
+              <div class="footer-title"><em class="fa fa-history"></em> Updated Just Now</div>
+            </div>
+            <div class="col-sm-5">
+              <div class="pull-right">
+                <button class="btn btn-danger btn-round btn-icon btn-sm" data-toggle="modal" data-target="#message_per_week">
+                  <em class="fas fa-info"></em>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

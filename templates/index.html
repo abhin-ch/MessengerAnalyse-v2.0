@@ -33,22 +33,22 @@
         console.log(throw_back)
       </script>
 
-<div class="sk-cube-grid">
-  <div class="sk-cube sk-cube1"></div>
-  <div class="sk-cube sk-cube2"></div>
-  <div class="sk-cube sk-cube3"></div>
-  <div class="sk-cube sk-cube4"></div>
-  <div class="sk-cube sk-cube5"></div>
-  <div class="sk-cube sk-cube6"></div>
-  <div class="sk-cube sk-cube7"></div>
-  <div class="sk-cube sk-cube8"></div>
-  <div class="sk-cube sk-cube9"></div>
-</div>
+    <div class="sk-cube-grid">
+      <div class="sk-cube sk-cube1"></div>
+      <div class="sk-cube sk-cube2"></div>
+      <div class="sk-cube sk-cube3"></div>
+      <div class="sk-cube sk-cube4"></div>
+      <div class="sk-cube sk-cube5"></div>
+      <div class="sk-cube sk-cube6"></div>
+      <div class="sk-cube sk-cube7"></div>
+      <div class="sk-cube sk-cube8"></div>
+      <div class="sk-cube sk-cube9"></div>
+    </div>
 
       <!-- Headline -->
-        <div class="text-center">
-          <h1>ANALYSIS</h1><br><br>
-        </div>
+    <div class="text-center">
+      <h1>ANALYSIS</h1><br><br>
+    </div>
 
 
       <!-- Statistics Card -->
@@ -76,7 +76,7 @@
               <div class="card-footer ">
                 <hr>
                 <div class="stats">
-                  <i class="fa fa-refresh"></i>
+                  <em class="fa fa-refresh"></em>
                   Updated Now
                 </div>
               </div>
@@ -106,7 +106,7 @@
               <div class="card-footer ">
                 <hr>
                 <div class="stats">
-                  <i class="fa fa-calendar-o"></i>
+                  <em class="fa fa-calendar-o"></em>
                   Updated Now
                 </div>
               </div>
@@ -136,7 +136,7 @@
               <div class="card-footer ">
                 <hr>
                 <div class="stats">
-                  <i class="fa fa-clock-o"></i>
+                  <em class="fa fa-clock-o"></em>
                   Updated Now
                 </div>
               </div>
@@ -172,7 +172,7 @@
       <div class="card">
         <div class="card-body">
           <div class="nav-tabs-navigation">
-          <h5><i class="fas fa-cogs"></i> Personality Insight</h5>
+          <h5><em class="fas fa-cogs"></em> Personality Insight</h5>
             <div class="nav-tabs-wrapper">
               <ul id="tabs" class="nav nav-tabs" role="tablist">
                 <script src="{{ url_for('static', filename='js/scripts/tab_generator.js')}}"></script>
@@ -196,111 +196,21 @@
     </div>
   </div>
 
-  <!-- Month and Time  -->
-  <div class="row">
-    <div class="col-lg-6 col-sm-6">
-      <div class="card">
-        <div class="card-header">
-          <h5 class="card-title">Month</h5>
-          <div class="row">
-            <div class="col-sm-7">
-            </div>
-          </div>
-        </div>
-        <div class="card-body">
-          <h6 class="big-title">total Messages sent per month </h6>
-          <!-- Canvas -->
-          <canvas id="month" width="800" height="380"></canvas>
-          <script src="{{ url_for('static', filename='js/scripts/message_month_chart.js')}}"></script>
 
-        </div>
-        <div class="card-footer">
-          <hr>
-          <div class="row">
-            <div class="col-sm-7">
-              
-              <div class="footer-title"><i class="fa fa-history"></i> Updated Just Now</div>
-            </div>
-            <div class="col-sm-5">
-              <div class="pull-right">
-                <button class="btn btn-warning btn-round btn-icon btn-sm" data-toggle="modal" data-target="#message_per_month" >
-                  <i class="fas fa-info"></i>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Time  -->
-    <div class="col-lg-6 col-sm-6">
-      <div class="card">
-        <div class="card-header">
-          <h5 class="card-title">Time</h5>
-          <div class="row">
-            <div class="col-sm-7">
-            </div>
-          </div>
-        </div>
-        <div class="card-body">
-          <h6 class="big-title">total Messages sent per Hour </h6>
-          <!-- Canvas -->
-          <canvas id="time" width="800" height="380"></canvas>
-          <script src="{{ url_for('static', filename='js/scripts/message_time_chart.js')}}"></script>
-        </div>
-        <div class="card-footer">
-          <hr>
-          <div class="row">
-            <div class="col-sm-7">
-              <div class="footer-title"><i class="fa fa-history"></i> Updated Just Now</div>
-            </div>
-            <div class="col-sm-5">
-              <div class="pull-right">
-                <button class="btn btn-success btn-round btn-icon btn-sm"  data-toggle="modal" data-target="#message_per_time">
-                  <i class="fas fa-info"></i>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <!-- Weekly -->
+  {% include "week.html" %}
 
-  <!-- Weekly  -->
-  <div class="row">
-    <div class="col-md-12">
-      <div class="card ">
-        <div class="card-header ">
-          <h5 class="card-title">Week</h5>
-          <p class="card-category">Messages sent per day of the week </p>
-        </div>
-        <div class="card-body ">
-          <!-- Canvas -->
-          <canvas id=week_chart width="400" height="80"></canvas>
-        </div>
-        <script src="{{ url_for('static', filename='js/scripts/message_week_chart.js')}}"></script>
-        <div class="row">
-          
-        </div>
-        <div class="card-footer">
-          <hr>
-          <div class="row">
-            <div class="col-sm-7">
-              <div class="footer-title"><i class="fa fa-history"></i> Updated Just Now</div>
-            </div>
-            <div class="col-sm-5">
-              <div class="pull-right">
-                <button class="btn btn-danger btn-round btn-icon btn-sm" data-toggle="modal" data-target="#message_per_week">
-                  <i class="fas fa-info"></i>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <!-- Hour -->
+  {% include "hour.html" %}
+
+  <!-- Monthly -->
+  {% include "month.html" %}
+
+
+
+
+
+ 
 
   <br><br>
 
@@ -315,7 +225,7 @@
           <ul class="timeline">
             <li class="timeline-inverted">
               <div class="timeline-badge danger">
-                <i class="fas fa-caret-left fa-3x"></i>
+                <em class="fas fa-caret-left fa-3x"></em>
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -330,7 +240,7 @@
             <script>document.getElementById("01").innerHTML = throw_back[a_name[0]][0]</script>
             <li>
               <div class="timeline-badge success">
-                <i class="fas fa-caret-right"></i>
+                <em class="fas fa-caret-right"></em>
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -345,7 +255,7 @@
             <script>document.getElementById("11").innerHTML= throw_back[a_name[1]][0] </script>
             <li class="timeline-inverted">
               <div class="timeline-badge info">
-                <i class="fas fa-caret-left"></i>
+                <em class="fas fa-caret-left"></em>
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -360,7 +270,7 @@
             <script>document.getElementById("21").innerHTML = throw_back[a_name[0]][1] </script>
             <li>
               <div class="timeline-badge warning">
-                <i class="fas fa-caret-right"></i>
+                <em class="fas fa-caret-right"></em>
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -396,12 +306,12 @@
         <hr>
         <div class="row">
           <div class="col-sm-7">
-            <div class="footer-title"><i class="fa fa-history"></i> Updated Just Now</div>
+            <div class="footer-title"><em class="fa fa-history"></em> Updated Just Now</div>
           </div>
           <div class="col-sm-5">
             <div class="pull-right">
               <button class="btn btn-warning btn-round btn-icon btn-sm" data-toggle="modal" data-target="#message_contribution">
-                <i class="fas fa-info"></i>
+                <em class="fas fa-info"></em>
               </button>
             </div>
           </div>
@@ -425,12 +335,12 @@
         <hr>
         <div class="row">
           <div class="col-sm-7">
-            <div class="footer-title"><i class="fa fa-history"></i> Updated Just Now</div>
+            <div class="footer-title"><em class="fa fa-history"></em> Updated Just Now</div>
           </div>
           <div class="col-sm-5">
             <div class="pull-right">
               <button class="btn btn-success btn-round btn-icon btn-sm" data-toggle="modal" data-target="#word_contribution">
-                <i class="fas fa-info"></i>
+                <em class="fas fa-info"></em>
               </button>
             </div>
           </div>
@@ -448,7 +358,7 @@
     <div class="modal-content">
       <div class="modal-header justify-content-center">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <i></i>
+          <em></em>
         </button>
         <h4 class="title title-up">Month</h4>
       </div>
@@ -471,7 +381,7 @@
     <div class="modal-content">
       <div class="modal-header justify-content-center">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <i></i>
+          <em></em>
         </button>
         <h4 class="title title-up">Time</h4>
       </div>
@@ -494,7 +404,7 @@
     <div class="modal-content">
       <div class="modal-header justify-content-center">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <i></i>
+          <em></em>
         </button>
         <h4 class="title title-up">Week</h4>
       </div>
@@ -517,7 +427,7 @@
     <div class="modal-content">
       <div class="modal-header justify-content-center">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <i></i>
+          <em></em>
         </button>
         <h4 class="title title-up">Message</h4>
       </div>
@@ -540,7 +450,7 @@
     <div class="modal-content">
       <div class="modal-header justify-content-center">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <i></i>
+          <em></em>
         </button>
         <h4 class="title title-up">Word</h4>
       </div>
@@ -572,7 +482,7 @@
             <span class="copyright">
               © <script>
                 document.write(new Date().getFullYear())
-              </script>, made with <i class="fa fa-heart heart"></i> by Abhinav Chaudhary, Anthony Inthavong
+              </script>, made with <em class="fa fa-heart heart"></em> by Abhinav Chaudhary, Anthony Inthavong
             </span>
           </div>
         </div>
