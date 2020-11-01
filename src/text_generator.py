@@ -130,7 +130,7 @@ def sub_traits(p):
         i+=1
     return traits
 
-def summary(traits:dict, low:float=0.45, high:float=0.75, min_low:float = 0.10, max_high:float = .90) -> str:
+def summary(traits:dict, low:float=0.10, high:float=0.90, max_low:float = 0.45, min_high:float = 0.65, max_length:int=600) -> str:
     """"
     This function takes in a the sub traits with there corresponding scores
     and gives analysis on high and low trait marks.
@@ -153,9 +153,13 @@ def summary(traits:dict, low:float=0.45, high:float=0.75, min_low:float = 0.10, 
             response = dictionary[trait]
             profile += response
 
-    if (len(profile)) > 650:
-         # False Safe incase the personality is to vibrant 
-        return summary(traits, min_low,max_high)
+    # rate of decreasing interval
+    # want to find most correlated personality traits
+    rate = 0.01
+    if len(profile) < max_length and high>= min_high and low <= max_low:
+        return summary(traits, low+rate, high-rate)
+    if profile == '':
+        return "Sorry, there is not enough information. Please try again when there is more data."
     return profile
 
 
