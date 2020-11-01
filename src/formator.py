@@ -55,8 +55,11 @@ def delete_files(paths):
     '''
     [os.remove(f) for f in paths]
 
-def main():
+def main(debug=False):
     filename = get_filename()
     data = merge_content(filename)
+    if debug:
+        with open('test.json', 'w') as t:
+            json.dump(data, t)
     delete_files(filename)
     return data
