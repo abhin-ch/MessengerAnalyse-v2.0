@@ -137,7 +137,8 @@ def get_message_by_day_week_group(d):
     for time, person in zip(df['timestamp_ms'], df['sender_name']):
         # Monday == 0
         v = time.day_name()
-        people[person][v] += 1
+        if person in people:
+            people[person][v] += 1
     return {"message_by_day_week_group": json.dumps(people)}
 
 
@@ -159,7 +160,8 @@ def get_message_by_day_week_g(d):
     for time, person in zip(df['timestamp_ms'], df['sender_name']):
         # Monday == 0
         v = time.day_name()
-        people[person][v] += 1
+        if person in people:
+            people[person][v] += 1
 
     for human in list(pep) :
         pep[human] = list(people[human].values())
@@ -167,14 +169,21 @@ def get_message_by_day_week_g(d):
     return {"message_by_day_week_g": json.dumps(pep)}
 
 
-colour = ["#51BCDA","#CCCCCC", "#cf4e72", "#aa4ecf", "#cfbe4e", "#82a15e" ]
+# colour = ["#51BCDA","#CCCCCC", "#cf4e72", "#aa4ecf", "#cfbe4e", "#82a15e" ]
+# colour = ['#e6194B', '#3cb44b', '#ffe119', '#4363d8', '#f58231', '#911eb4', '#42d4f4', '#f032e6', '#bfef45', '#fabed4', '#469990', '#dcbeff', '#9A6324', '#fffac8', '#800000', '#aaffc3', '#808000', '#ffd8b1', '#000075', '#a9a9a9', '#ffffff', '#000000']
+import random
+
 def get_name_to_colour(d):
     "Takes in a name and assigns them a colour"
     people = get_participants(d)
     col = {}
     i = 0
+    random.seed(100)
     for p in list(people):
-        col[p] = colour[i]
+        # col[p] = colour[i]
+        # use random colours
+        r = lambda: random.randint(0,255)
+        col[p] = '#%02X%02X%02X' % (r(),r(),r())
         i = i+1
     return {"get_name_to_colour": json.dumps(col)}
 
@@ -229,7 +238,8 @@ def get_message_by_month_group(d):
 
     for time, person in zip(df['timestamp_ms'], df['sender_name']):
         v = time.month_name()
-        people[person][v] += 1
+        if person in people:
+            people[person][v] += 1
 
     for human in list(pep):
         pep[human] = list(people[human].values())
@@ -325,10 +335,11 @@ def get_len_of_message(d):
     for msg in d['messages']:
         if 'content' in msg:
             k = len(msg['content'])
-            if k in p[msg['sender_name']]:
-                p[msg['sender_name']][k] += 1
-            else:
-                p[msg['sender_name']][k] = 1
+            if msg['sender_name'] in p:
+                if k in p[msg['sender_name']]:
+                    p[msg['sender_name']][k] += 1
+                else:
+                    p[msg['sender_name']][k] = 1
     # convert to json
     return {"len_of_message" : json.dumps(p)}
 
@@ -355,7 +366,8 @@ def get_message_by_hour_group(d): #TODO: check if can do faster than iterating t
 
     for time, person in zip(df['timestamp_ms'], df['sender_name']):
         v = (time.hour - 5) % 24
-        people[person][v] += 1
+        if person in people:
+            people[person][v] += 1
 
     for human in list(pep):
         pep[human] = list(people[human].values())
@@ -423,7 +435,7 @@ def main(d):
     """
     summary = dict()
     data = [
-        personality_insight(d),
+        # personality_insight(d),
         total_message(d),
         total_word(d),
         total_call(d),
