@@ -55,18 +55,12 @@ def get_script(d):
     EXAMPLE :
     {'Samuel Jackson': ['msg_n', ...msg_1], 'Abhinav Chaudhary': ['msg_n', ...msg_1]}
     """
-    # Get message
     messages = d["messages"]
-    script = ''
     p = get_participants(d)
-    for msg in messages:
-        sender_name = msg["sender_name"]
-        try:
-            lis = p[sender_name]
-            lis.append( msg["content"])
-        except:
-            lis = p[sender_name]
-            lis.append(script)
+    for content in messages:
+        name = content["sender_name"]
+        if "content" in content:
+            p[name].append(content["content"])
     return p
 
 def format_script(contents):
@@ -74,11 +68,11 @@ def format_script(contents):
     ARG: dictionary of list : {'Samuel Jackson': ['msg_n', ...msg_1], 'Abhinav Chaudhary': ['msg_n', ...msg_1]}
     RETURN: dictionary of list : {'Samuel Jackson': ['msg_n-100', ...msg_1], 'Abhinav Chaudhary': ['msg_n-100', ...msg_1]}
     """
-    msg= []
-    for ele in contents:
-        res = len(ele.split())
-        if(res > 7):
-            msg.append(ele)
+    msg=[]
+    for e in contents:
+        res = len(e.split())
+        if(res > 7): # if number of words is greater than some amount, append to return
+            msg.append(e)
     return msg
             
 def get_participants(d):
@@ -103,8 +97,6 @@ def throw_back(script):
     for ele in sampling:
         ele = unidecode(ele)
     return sampling
-
-
 
 def execute2(d):
     """
