@@ -6,67 +6,57 @@ DESCRIPTION: This script edits the file uploaded by the user. It will merge them
 from glob import glob
 import json 
 import os 
-import os.path # for file path
-
-
-# merged json path
-MESSAGE_PATH = os.path.join('.', 'uploads', 'message.json')
-
 
 def get_filename():
     """ Return files in uploads folder
     """
-    f = os.path.join('.', 'uploads', 'message_*.json')
-    filename = glob(f)
-    return filename
 
-def merge_message(filename):
-    ''' This will extract message the Json Files and 
-        output and save the merged messages'''
+    # search all files not named message.json
+    f = os.path.join('.', 'uploads', '*.json')
+    return glob(f)
+
+def merge_content(paths):
+    """ Given a list of paths of files, return the collected results as a json file
+    {
+        name: name
+    }
+    {
+        sender_name,
+    }
+    """
     # Intializing
     data = []
+    data = dict()
+    data['participants'] = []
+    data['messages'] = []
+
+    participants = set()
     
-    # Interate through the files
-    for file in filename:
+    # iterate through all files
+    for f in paths:
 
         # Open each file
-        with open(file) as msg:
+        with open(f) as content:
             # Get the messages from each file
-            d = json.load(msg)
-            message = d['messages']
-            data = data + message
+            container = json.load(content)
+            container['participants']
 
-    json_object = json.dumps(data, indent = 10) 
+            # collect names of all participants
+            [participants.add(p['name']) for p in container['participants']]
 
-    # write json file object
-    with open(MESSAGE_PATH, "w") as outfile: 
-        outfile.write(json_object)
-
-def merge_file(filename):
-    """ merge Message.json and message_1.json
-    """
-    
-    fil_url = os.path.join('.', 'uploads', 'message_1.json')
-
-    with open(fil_url) as fil:
-        data = json.load(fil)
-    
-    with open(MESSAGE_PATH) as msg:
-        message = json.load(msg)
-        data['messages'] = message
-
+            # add all messages to single array
+            data['messages'] += container['messages']
+    # convert participants to json notation
+    [data['participants'].append({'name': name}) for name in participants]
     return data
 
-def delete_files(filename):
+def delete_files(paths):
     ''' Delete files from uploads folder
     '''
-    os.remove(MESSAGE_PATH)
-    for file in filename:
-        os.remove(file)
+    [os.remove(f) for f in paths]
 
 def main():
     filename = get_filename()
-    merge_message(filename)
-    json_file = merge_file(filename)
+    data = merge_content(filename)
     delete_files(filename)
-    return json_file
+    return data
