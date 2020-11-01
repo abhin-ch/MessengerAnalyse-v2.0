@@ -322,7 +322,6 @@ def get_message_by_year_percent(d):
     d = {i:round(d[i]/total) for i in list(d)}
     return {"message_by_year_percent": json.dumps(d)}
 
-### TODO: test
 def get_len_of_message(d):
     """ Return length of messages sent by person
     not include images, gifs
@@ -330,18 +329,19 @@ def get_len_of_message(d):
         "name": int
     }
     """
-    # participants
-    p = {person['name']:dict() for person in d['participants']}
-    for msg in d['messages']:
-        if 'content' in msg:
-            k = len(msg['content'])
-            if msg['sender_name'] in p:
-                if k in p[msg['sender_name']]:
-                    p[msg['sender_name']][k] += 1
-                else:
-                    p[msg['sender_name']][k] = 1
+
+    data = dict()
+    q = """
+        SELECT len, count(len) FROM 
+            (SELECT length(content) as len
+                FROM messages WHERE sender_name='{}')
+            GROUP BY len ORDER BY len;
+        """
+    for name in get_participants():
+        data[name] = {k:v for k,v in db.select(q.format(name))}
+
     # convert to json
-    return {"len_of_message" : json.dumps(p)}
+    return {"len_of_message" : json.dumps(data)}
 
 def get_message_by_hour_group(d): #TODO: check if can do faster than iterating through rows
     """ Return the number of messages per hour for each
