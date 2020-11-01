@@ -63,15 +63,15 @@ def get_script(d):
             p[name].append(content["content"])
     return p
 
-def format_script(contents):
+def format_script(contents, minimum_word_count = 5):
     """
     ARG: dictionary of list : {'Samuel Jackson': ['msg_n', ...msg_1], 'Abhinav Chaudhary': ['msg_n', ...msg_1]}
     RETURN: dictionary of list : {'Samuel Jackson': ['msg_n-100', ...msg_1], 'Abhinav Chaudhary': ['msg_n-100', ...msg_1]}
     """
-    msg=[]
+    msg = []
     for e in contents:
-        res = len(e.split())
-        if(res > 7): # if number of words is greater than some amount, append to return
+        # if number of words is greater than some amount, append to return message
+        if len(e.split()) > minimum_word_count:
             msg.append(e)
     return msg
             
