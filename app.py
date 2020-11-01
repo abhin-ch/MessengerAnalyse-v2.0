@@ -93,7 +93,7 @@ def upload_file():
 @app.route('/romeo_juliet')
 def example_file_1():
     # collect test file
-    f = os.path.join('.', 'static', 'test_file', 'message_1.json')
+    f = os.path.join('.', 'static', 'test_file', 'shakesphere_romeo_juliet.json')
 
     # copy test file to uploads folder
     copy(f, os.path.join('.', 'uploads'))
@@ -104,6 +104,28 @@ def example_file_1():
 
     # # Run the analysis -src/analysis.py
     report = analysis(data)
+
+    # delete database
+    db.delete_database('messages.db')
+    return render_template('index.html', data = report)
+
+@app.route('/theoffice')
+def example_file_2():
+    # collect test file
+    f = os.path.join('.', 'static', 'test_file', 'theoffice.json')
+
+    # copy test file to uploads folder
+    copy(f, os.path.join('.', 'uploads'))
+
+    # # Format the Uploaded Files -> Combine, Store and Delete -src/formator.py
+    data = formator()
+    db._init('messages.db', data)
+
+    # # Run the analysis -src/analysis.py
+    report = analysis(data)
+
+    # delete database
+    db.delete_database('messages.db')
     return render_template('index.html', data = report)
 
 if __name__ == "__main__":
