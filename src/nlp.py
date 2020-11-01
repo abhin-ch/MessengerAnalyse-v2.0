@@ -89,17 +89,22 @@ def get_participants(d):
             p[msg['sender_name']] = []
     return p
 
-def throw_back(script):
+def throw_back(script, k=2):
     """
     ARG: dictionary of list 
     RETURN 
     """
-    script_formated = format_script(script)
-    #print(script_formated)
-    sampling = random.choices(script_formated, k=2)
-    for ele in sampling:
-        ele = unidecode(ele)
-    return sampling
+    messages = format_script(script)
+    if len(messages) > 2:
+        # pick k random elements in message sample
+        sample = random.choices(messages, k=k)
+    else:
+        sample = [""]
+
+    # for ele in sampling:
+    #     ele = unidecode(ele)
+    # return sampling
+    return sample
 
 def execute2(d):
     """
@@ -120,8 +125,9 @@ def execute2(d):
         throw_backs[name] = throw_back(script[name])        
         p = personality_insight_user(str(script[name]))
         if p:
-            with open('./test/personaility_{}.json'.format(name), 'w') as f:
-                json.dump({name: p}, f)
+            # debug
+            # with open('./test/personaility_{}.json'.format(name), 'w') as f:
+            #     json.dump({name: p}, f)
 
             # Big 4 personality types
             big_four[name] = generator.big_four(p)
