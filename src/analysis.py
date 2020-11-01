@@ -435,7 +435,7 @@ def main(d):
     """
     summary = dict()
     data = [
-        # personality_insight(d),
+        personality_insight(d),
         total_message(d),
         total_word(d),
         total_call(d),
