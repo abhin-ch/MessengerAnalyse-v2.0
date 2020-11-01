@@ -217,7 +217,7 @@ def get_message_by_month(d):
             FROM messages
         ) GROUP BY day ORDER BY day;
     """
-    data = {k:v for k,v in db.select(q)}
+    data = [v for k,v in db.select(q)]
     return {"message_by_month_count": json.dumps(data)}
 
 def get_message_by_month_group(d):
@@ -370,21 +370,22 @@ def get_message_by_hour_group(d): #TODO: check if can do faster than iterating t
           }
       }
     """
-    df = pd.DataFrame.from_dict(d["messages"])
-    df['timestamp_ms'] = pd.to_datetime(df['timestamp_ms'], unit='ms')
-    pep = get_participants(d)
-    people = get_participants(d)
-    for p in list(people):
-        people[p] = {t:0 for t in range(0, 24)}
 
-    for time, person in zip(df['timestamp_ms'], df['sender_name']):
-        v = (time.hour - 5) % 24
-        if person in people:
-            people[person][v] += 1
+    q = """
+    SELECT day, count(day)
+        FROM 
+        (
+            SELECT strftime('%H', timestamp_ms / 1000, 'unixepoch', 'localtime') AS day 
 
-    for human in list(pep):
-        pep[human] = list(people[human].values())
-    return {"message_by_hour_group": json.dumps(pep)}
+            FROM messages where sender_name ='{}'
+        ) GROUP BY day ORDER BY day;
+    """
+
+    data = dict()
+    for name in get_participants():
+        data[name] = [v for k,v in db.select(q.format(name))]
+    return {"message_by_hour_group": json.dumps(data)}
+
 
 def get_message_count_percent(d):
     v = get_message_count(d)
