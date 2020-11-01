@@ -39,16 +39,19 @@ def personality_insight_user(text):
 
     Return : JSON type 
     """
-    personality_insights.set_service_url(url)
-    profile = personality_insights.profile(
-            text,
-            'application/json',
-            content_type='text/plain',
-            consumption_preferences=True,
-            raw_scores=True
-        ).get_result()
-    user_personality = json.dumps(profile, indent=2)
-    return user_personality
+
+    # api requires at least 100 words otherwise error
+    if len(text.split()) >= 100:
+        personality_insights.set_service_url(url)
+        profile = personality_insights.profile(
+                text,
+                'application/json',
+                content_type='text/plain',
+                consumption_preferences=True,
+                raw_scores=True
+            ).get_result()
+        return profile
+    return None
 
 def get_script(d):
     """ This  fuction just get's the participants messages.
@@ -105,27 +108,40 @@ def execute2(d):
     # Get the script of messages 
     script = get_script(d)
     e = dict()
-    inner_dict = dict()
+    data = dict()
     # Get Participant before NLP population
     big_four = get_participants(d)
     summary = get_participants(d)
     progress_bar = get_participants(d)
     throw_backs = get_participants(d)
     interst = get_participants(d)
+    open('personaility.txt', 'w').close()
     for name in script:
-        # Throwback 
-        throw_backs[name] = throw_back(script[name])
-        q = personality_insight_user(str(script[name]))
-        p = json.loads(q)
-        big_four[name] = generator.big_four(p)
-        traits = generator.sub_traits(p)
-        summary[name] = generator.summary(traits)
-        progress_bar[name] = generator.five_progresss_bara_data(traits, p)
-        interst[name] = generator.sub_interest(p)
-    inner_dict["big_four"]= big_four
-    inner_dict["summary"] = summary
-    inner_dict["progress_bar"] = progress_bar
-    inner_dict["throw_back"] = throw_backs
-    inner_dict["sub_interst"] = interst
-    e.update(inner_dict)
+        throw_backs[name] = throw_back(script[name])        
+        p = personality_insight_user(str(script[name]))
+        if p:
+            with open('./test/personaility_{}.json'.format(name), 'w') as f:
+                json.dump({name: p}, f)
+
+            # Big 4 personality types
+            big_four[name] = generator.big_four(p)
+
+            # get summary of big 4 from traits
+            traits = generator.sub_traits(p)
+            summary[name] = generator.summary(traits)
+
+            #
+            progress_bar[name] = generator.five_progresss_bara_data(traits, p)
+
+            #
+            interst[name] = generator.sub_interest(p)
+        else:
+            print(name)
+
+    data["big_four"]= big_four
+    data["summary"] = summary
+    data["progress_bar"] = progress_bar
+    data["throw_back"] = throw_backs
+    data["sub_interst"] = interst
+    e.update(data)
     return e
