@@ -196,15 +196,15 @@ def get_message_by_month(d):
 
     q = """
     SELECT CASE day
-        WHEN '1' THEN 'January'
-        WHEN '2' THEN 'February'
-        WHEN '3' THEN 'March'
-        WHEN '4' THEN 'April'
-        WHEN '5' THEN 'May'
-        WHEN '6' THEN 'June'
-        WHEN '7' THEN 'July'
-        WHEN '8' THEN 'August'
-        WHEN '9' THEN 'September'
+        WHEN '01' THEN 'January'
+        WHEN '02' THEN 'February'
+        WHEN '03' THEN 'March'
+        WHEN '04' THEN 'April'
+        WHEN '05' THEN 'May'
+        WHEN '06' THEN 'June'
+        WHEN '07' THEN 'July'
+        WHEN '08' THEN 'August'
+        WHEN '09' THEN 'September'
         WHEN '10' THEN 'October'
         WHEN '11' THEN 'November'
         WHEN '12' THEN 'December'
@@ -228,23 +228,36 @@ def get_message_by_month_group(d):
         }
     }
     """
-    df = pd.DataFrame.from_dict(d["messages"])
-    df['timestamp_ms'] = pd.to_datetime(df['timestamp_ms'], unit='ms')
-    people = get_participants(d)
-    pep = get_participants(d)
-    for p in list(people):
-        people[p] = {'January': 0, 'February': 0, 'March':0, 'April':0, 'May':0, 'June':0,
-        'July':0, 'August':0, 'September':0, 'October':0, 'November':0, 'December':0}
 
-    for time, person in zip(df['timestamp_ms'], df['sender_name']):
-        v = time.month_name()
-        if person in people:
-            people[person][v] += 1
+    q = """
+    SELECT CASE day
+        WHEN '01' THEN 'January'
+        WHEN '02' THEN 'February'
+        WHEN '03' THEN 'March'
+        WHEN '04' THEN 'April'
+        WHEN '05' THEN 'May'
+        WHEN '06' THEN 'June'
+        WHEN '07' THEN 'July'
+        WHEN '08' THEN 'August'
+        WHEN '09' THEN 'September'
+        WHEN '10' THEN 'October'
+        WHEN '11' THEN 'November'
+        WHEN '12' THEN 'December'
+        END
+    , count(day)
+        FROM 
+        (
+            SELECT strftime('%m', timestamp_ms / 1000, 'unixepoch', 'localtime') AS day 
 
-    for human in list(pep):
-        pep[human] = list(people[human].values())
+            FROM messages WHERE sender_name = '{}'
+        ) GROUP BY day ORDER BY day;
+    """
+    data = dict()
+    for name in get_participants():
+        data[name] = [v for k,v in db.select(q.format(name))]
+    print(data)
+    return {"message_by_month_group": json.dumps(data)}
 
-    return {"message_by_month_group": json.dumps(pep)}
 
 def get_message_by_quarter(d):
     """ Return message count by quarter of year
