@@ -51,7 +51,7 @@ To learn new skills of course! During the time of this project we learned not on
 
 > "Overall it was a good experience to help prepare me for the future" \- Anthony
 
-> "Learned a lot from Anthony about programming" \- Abhinav
+> "Learned a lot from Anthony about life !" \- Abhinav
 
 The website is currently hosted using Heroku and can be found below. Hope you find this as interesting as we did :)
 
