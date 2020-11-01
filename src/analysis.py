@@ -188,7 +188,7 @@ def get_message_by_day_week_g(d):
     
     for name in get_participants():
         data[name] = {k:v for k,v in db.select(q.format(name))}
-        data[name] = [data[name][d] for d in days]
+        data[name] = [data[name][d] if d in data[name] else 0 for d in days ]
 
     return {"message_by_day_week_g": json.dumps(data)}
 
