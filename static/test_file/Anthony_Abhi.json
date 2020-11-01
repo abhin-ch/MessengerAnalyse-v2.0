@@ -1,0 +1,4430 @@
+{
+  "participants": [
+    {
+      "name": "Abhinav Chaudhary"
+    },
+    {
+      "name": "Anthony Inthavong"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1579018733921,
+      "content": "Okay come to la prep if u free",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1579018722448,
+      "content": "Im in ic",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1579018716666,
+      "sticker": {
+        "uri": "messages/stickers_used/39178562_1505197616293642_5411344281094848512_n_369239263222822.png"
+      },
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1579018711167,
+      "content": "Heading to la prep",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1579018702187,
+      "content": "Where",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1579018697477,
+      "content": "Ic",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1579018693435,
+      "content": "Where u",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1579018688668,
+      "sticker": {
+        "uri": "messages/stickers_used/39178562_1505197616293642_5411344281094848512_n_369239263222822.png"
+      },
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1579018602682,
+      "content": "and we can get each other caught up",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1579018575188,
+      "content": "Okay let me know when you\u00e2\u0080\u0099re free",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1579013012222,
+      "content": "upload any json file and it should render a basic bar graph",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1579012995189,
+      "content": "run python ./test/upload.py",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1579012979815,
+      "content": "i was looking how to do file uploads integrating with python",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1579012963704,
+      "content": "i added a sample of what i did",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1579011470519,
+      "content": "just need to format the outputs to proper lists",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1579011444554,
+      "content": "just run it before rendering the page when you redirect to analysis",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1579011429091,
+      "content": "also i figured out how to run the python module",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1579011419475,
+      "content": "cause ive already done most of the python stuff",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1579011410873,
+      "sticker": {
+        "uri": "messages/stickers_used/39178562_1505197616293642_5411344281094848512_n_369239263222822.png"
+      },
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1579010381138,
+      "content": "I need to write a script",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1579010366053,
+      "content": "And then reading it",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1579010362172,
+      "content": "I am uploading it to the server",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1578996898964,
+      "content": "also how do you read a local json file",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1578987157613,
+      "content": "check if its right",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1578987154900,
+      "content": "C33",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1578987154095,
+      "files": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/files/a1_2400440410272108.html",
+          "creation_timestamp": 1578987152
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1578727731095,
+      "content": "https://www.youtube.com/watch?v=xw2wrobYL6E&feature=share",
+      "share": {
+        "link": "https://www.youtube.com/watch?v=xw2wrobYL6E"
+      },
+      "type": "Share"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1578717905698,
+      "files": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/files/DataAnalysis1_632627960814829.pdf",
+          "creation_timestamp": 1578717905
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1578715509686,
+      "content": "https://pythonhosted.org/Flask-Uploads/",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1578709472486,
+      "content": "https://messengeranalyser.herokuapp.com/",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1578700561940,
+      "content": "https://github.com/abhin-ch/MessengerAnalyser/invitations",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1578354353148,
+      "content": "https://www.youtube.com/watch?v=J3SjoFQCE44&feature=share",
+      "share": {
+        "link": "https://www.youtube.com/watch?v=J3SjoFQCE44"
+      },
+      "type": "Share"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1578354349224,
+      "content": "https://www.youtube.com/watch?v=skF43FwkRw8&feature=share",
+      "share": {
+        "link": "https://www.youtube.com/watch?v=skF43FwkRw8"
+      },
+      "type": "Share"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1578354328291,
+      "content": "https://github.com/anth7310/rotton",
+      "share": {
+        "link": "https://github.com/anth7310/rotton"
+      },
+      "type": "Share"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1578354199918,
+      "content": "Anth7310",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1577906717235,
+      "content": "Happy new year\u00f0\u009f\u00a4\u00a9\u00f0\u009f\u00a4\u00a9\u00f0\u009f\u00a4\u00a9\u00f0\u009f\u00a4\u00a9\u00f0\u009f\u00a4\u00a9\u00f0\u009f\u00a4\u00a9\u00f0\u009f\u00a4\u00a9\u00f0\u009f\u00a4\u00a9\u00f0\u009f\u00a4\u00a9\u00f0\u009f\u00a4\u00a9\u00f0\u009f\u00a4\u00a9\u00f0\u009f\u00a4\u00a9\u00f0\u009f\u00a4\u00a9\u00f0\u009f\u00a4\u00a9",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1577906629527,
+      "content": "Happy New Year \u00f0\u009f\u00a5\u00b3",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1576355939620,
+      "content": ":)",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1576355937173,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/80015734_2435216500063066_1031821882334117888_n_2435216450063071.jpg",
+          "creation_timestamp": 1576355936
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1576019683199,
+      "content": "FACts",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1576019676694,
+      "content": "Scam",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1576019668193,
+      "content": "wtf is this",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1576019635598,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/79740749_2458075067801011_6015827276938084352_n_2458075014467683.jpg",
+          "creation_timestamp": 1576019635
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1576019633772,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/79483481_786898778382202_5908327595593695232_n_786898698382210.jpg",
+          "creation_timestamp": 1576019633
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1575513890825,
+      "content": "Fk",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1575513427965,
+      "gifs": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/gifs/74642850_442934449969181_1608027350371401728_n_442934446635848.gif"
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1575513385767,
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1575513183189,
+      "content": "Hmmm okay",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1575512804876,
+      "content": "She said shes busy",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1575510780211,
+      "content": "but do ur thing ..... we can do it later",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1575510779231,
+      "sticker": {
+        "uri": "messages/stickers_used/39178562_1505197616293642_5411344281094848512_n_369239263222822.png"
+      },
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1575510767274,
+      "content": "Bitch lmk when u free ... wann goo over the report with someone",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1575509337618,
+      "content": "https://stats.stackexchange.com/questions/92499/how-to-interpret-pca-loadings",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Abhinav Chaudhary"
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1574968935987,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/77347776_434340740843743_6369330577484546048_n_434340717510412.jpg",
+          "creation_timestamp": 1574968935
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1574968571583,
+      "content": "Coming",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1574968568300,
+      "sticker": {
+        "uri": "messages/stickers_used/39178562_1505197616293642_5411344281094848512_n_369239263222822.png"
+      },
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1574968306065,
+      "content": "At market place",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1574967002854,
+      "content": "Alright I\u00e2\u0080\u0099ll hit u up onnce i get there",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1574966945740,
+      "content": "Stuff",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1574966320274,
+      "content": "I\u00e2\u0080\u0099ll be there soon ... whats up",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1574944907830,
+      "content": "when you coming to school",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1574881598023,
+      "sticker": {
+        "uri": "messages/stickers_used/39178562_1505197616293642_5411344281094848512_n_369239263222822.png"
+      },
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1574881553694,
+      "content": "this is what the assignment is based off of",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1574881544635,
+      "files": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/files/RcodeLab3Factor_2270542386569708.r",
+          "creation_timestamp": 1574881543
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1574881525349,
+      "content": "U are right",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1574881511331,
+      "content": "Thats why",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1574881507847,
+      "content": "Which happens to come from regression",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1574881497129,
+      "content": "\u00f0\u009f\u0098\u0082 I already figured that part out ... even for mle u need the density function",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1574881417535,
+      "content": "so dont need to change it",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1574881414625,
+      "content": "its cause scores defaults to regression",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1574881404105,
+      "content": "When those people were asking about why scores=\"regression\"",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1574881392774,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/78090126_447540145961929_1402404936376909824_n_447540142628596.png",
+          "creation_timestamp": 1574881392
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1574712876346,
+      "content": "Lol oki :D",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1574712831992,
+      "content": "Just do your best",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1574712823463,
+      "content": "U asked to be in the group and i said sure",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1574712749162,
+      "content": "also ps ... my input in this is 0 soo If u want to not put my name \u00f0\u009f\u0098\u0085\u00f0\u009f\u0098\u0085\u00f0\u009f\u0098\u0085 .... that's cool lol",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1574712683070,
+      "content": "before we submit it",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1574712679279,
+      "content": "do u want me to ask the proff if it's right",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1574712667833,
+      "content": "I'll go through it one more time just to be sure",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1574712657603,
+      "content": "Thats true",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1574712648675,
+      "content": "Just cause he did it doesnt mean its right",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1574712647638,
+      "content": "yup I could foolow it through",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1574712637047,
+      "content": "It is right?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1574712636529,
+      "content": "he pretty much did all the work",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1574712626757,
+      "content": "I did",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1574712612503,
+      "content": "A5",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1574712610865,
+      "content": "Did u get a chance to look over D37",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1574276168878,
+      "files": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/files/A5_726673144499592.rmd",
+          "creation_timestamp": 1574276168
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1574276160470,
+      "content": "also i have a group of 2 already",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Abhinav Chaudhary"
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1574272775409,
+      "sticker": {
+        "uri": "messages/stickers_used/39178562_1505197616293642_5411344281094848512_n_369239263222822.png"
+      },
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1574271378075,
+      "content": "I have dibs",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1574271374610,
+      "content": "Ure in my group",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1574271369077,
+      "content": "Yup",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1574256366596,
+      "content": "D37 today?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1574215134749,
+      "content": "Are u in the library",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1574215114604,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/77015065_779421219155338_508477896818425856_n_779421215822005.png",
+          "creation_timestamp": 1574215113
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1573089137547,
+      "content": "Noice",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1573089128013,
+      "content": "I went home",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1573083697890,
+      "content": "where you",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1573067043178,
+      "content": "Gg",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1573067033068,
+      "content": "Homr",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1573065127317,
+      "content": "wya",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1573024542445,
+      "content": "Lol \u00f0\u009f\u0098\u0082",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1573024521867,
+      "content": "Aight i saw a guy staring at me in a car that looked like u",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1573024497745,
+      "content": "I didn\u00e2\u0080\u0099t see u and soad",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1573024483275,
+      "content": "I don\u00e2\u0080\u0099t drive",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1573024083258,
+      "content": "Did u just drive past me?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1572872781795,
+      "files": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/files/a_437654940273433.r",
+          "creation_timestamp": 1572872780
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1572827246642,
+      "content": "Hmmm okay",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1572826370178,
+      "content": "then you substract",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1572826351304,
+      "content": "mean of the column",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1572826323323,
+      "content": "In this case",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1572826315992,
+      "content": "But what is it",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1572826307679,
+      "content": "I know lil bitch",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1572825124513,
+      "content": "S is sample covariance",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1572825114715,
+      "content": "x bar is sample mean",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1572821159188,
+      "content": "\\(x\\) and \\(S\\)",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1572821144295,
+      "content": "\\( x_\\bar\\)",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1572821104227,
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1572821094403,
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1572821081742,
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1572821043186,
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1572821029072,
+      "content": "Do you know how they got this",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1572821020394,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/74453249_2538352896386234_4561638237700882432_n_2538352893052901.png",
+          "creation_timestamp": 1572821019
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1572820972866,
+      "content": "antony",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1572654176303,
+      "files": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/files/d93assign4_fall_2019_494790361112787.pdf",
+          "creation_timestamp": 1572654175
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1571800440662,
+      "sticker": {
+        "uri": "messages/stickers_used/39178562_1505197616293642_5411344281094848512_n_369239263222822.png"
+      },
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1571800376158,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/73047031_392349005035410_1582799996669919232_n_392348598368784.jpg",
+          "creation_timestamp": 1571800374
+        },
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/75323231_1213615265513152_7516416003220176896_n_1213615018846510.jpg",
+          "creation_timestamp": 1571800374
+        },
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/73539242_455417131990676_2878148900349280256_n_455417018657354.jpg",
+          "creation_timestamp": 1571800373
+        },
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/72753579_2585061174909401_4753393568096190464_n_2585060658242786.jpg",
+          "creation_timestamp": 1571800373
+        },
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/71724116_410668352950092_8491443668983480320_n_410668072950120.jpg",
+          "creation_timestamp": 1571800375
+        },
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/73061046_756045611511754_7412135648972242944_n_756045041511811.jpg",
+          "creation_timestamp": 1571800372
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1571792164353,
+      "content": "pdf, lecture notes, solution, other courses",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0098\u008d",
+          "actor": "Abhinav Chaudhary"
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1571792154778,
+      "content": "Wooo thank youuuuuuuuu ......... tag STAD68",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1571792132453,
+      "content": "https://www.cse.huji.ac.il/~shais/UnderstandingMachineLearning/courses.html",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1571792122772,
+      "content": "https://www.alongonen.org/files/mlbooksol.pdf",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1571792110819,
+      "content": "https://www.cse.huji.ac.il/~shais/IML2014.html",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1571792095462,
+      "content": "https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1570269204646,
+      "content": "On my way",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1570269105653,
+      "content": "im in bv",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1570269103406,
+      "content": "where u",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1570244079097,
+      "content": "6: 00 am BV be there",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1570244043269,
+      "sticker": {
+        "uri": "messages/stickers_used/851582_369239386556143_1497813874_n_369239383222810.png"
+      },
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1570243953094,
+      "content": "I am home my dude",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1570240905357,
+      "content": "are you studying c50 alone or with a group",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1570123401031,
+      "content": "u fuck bitch",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1570122502676,
+      "content": "Home",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1570122482093,
+      "content": "wya",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569965916919,
+      "files": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/files/m_Rtex_389681218608629.pdf",
+          "creation_timestamp": 1569965916
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569566035062,
+      "content": "Good night",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569566031305,
+      "content": "\u00f0\u009f\u0098\u0082\u00f0\u009f\u0098\u0082thanks mom",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569565995691,
+      "content": "Aight well review it in the car",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569565882543,
+      "content": "For tobermory",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569565876165,
+      "content": "I leave tomorrow anthony \u00f0\u009f\u0098\u009e\u00f0\u009f\u0098\u009e",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569565837478,
+      "content": "We should go over 2 tmw",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569563797130,
+      "content": "why is English hard",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0098\u0086",
+          "actor": "Abhinav Chaudhary"
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569563791575,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/71769607_2384685435117314_1658421812268105728_n_2384685431783981.png",
+          "creation_timestamp": 1569563790
+        }
+      ],
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0098\u0086",
+          "actor": "Abhinav Chaudhary"
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569563437869,
+      "content": "since ure counting the 2 kids iondividually when they have the same parent",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569563411549,
+      "content": "but if u do it the way anup said then ur frame just became bigger",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569563392757,
+      "content": "ure not gonna have more opininon",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569563386132,
+      "content": "like if u have 2 kids in school",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569563370276,
+      "content": "that's my explanation",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569563363266,
+      "content": "noo but the people that can change anything are the parents",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569563329532,
+      "content": "rather than the parents of the children",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569563319255,
+      "content": "he said the sampling frame should be the list of all children enrolled in local schools",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569563297773,
+      "content": "oh i was talking to anup about this",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569563219670,
+      "content": "check other answers",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569563217021,
+      "files": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/files/newdoc20190927013540_20190927014027_2349824851944149.pdf",
+          "creation_timestamp": 1569563214
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569563204935,
+      "content": "Okay fuck that for now",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569562944224,
+      "content": "thats wrong",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569562937875,
+      "content": "wait nvm",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569562903950,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/70836196_2400506590165713_2768378757558304768_n_2400506586832380.png",
+          "creation_timestamp": 1569562903
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569562884350,
+      "content": "i tired doing it when order mattered and got the same variance",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569562057003,
+      "content": "I am actually gonna talk to him after",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569562047876,
+      "content": "Yoo I am actuallly soooo fucking confused his hitns don't even follow the same notation",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569562031974,
+      "content": "but then you dont get duplicate values",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569562024059,
+      "content": "it says to use comb to get all combinations for SRS WOR",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569562011048,
+      "content": "the hints are so misleading",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569561851088,
+      "content": "Ugg I know what u mean",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569561848874,
+      "content": "cause if thats true then there is no difference bettween SRS WO and SRS WOR",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569561814823,
+      "content": "15 sounds more probable because we can't have the same number twice",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569561787139,
+      "content": "30 = 6 * 5",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569561783355,
+      "content": "15 = 6 c 2",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569561750618,
+      "content": "im just unsure if the total number of samples is 15 or 30",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569561730767,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/71637862_531771144242140_4412658844543483904_n_531771140908807.png",
+          "creation_timestamp": 1569561730
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569561708085,
+      "content": "its everything expect the last part",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Abhinav Chaudhary"
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569561695858,
+      "content": "let me run ur code",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569561691025,
+      "content": "Hmm I am confused",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569561629975,
+      "content": "cause i thought (1, 3) != (3, 1) with replacement",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569561592875,
+      "content": "so for the last part of 4 there should be 30 examples?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569561473140,
+      "content": "that was part of Q2",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569561465972,
+      "content": "the order would'nt matter",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569561456323,
+      "content": "noo it won't",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569561441833,
+      "content": "does the order matter",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569561438347,
+      "content": "do you know if with replacement",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569561417429,
+      "content": "thats what i have so far",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569561409032,
+      "content": "y <- c(8,3,1,11,4, 7)\nN = length(y)\nn <- 2\n\n\n### 4.1 Calc Ybar SRSWR n = 2\n\n# random sampling without replacement size 2\n(Y <- colMeans(combn(y, 2))) # get mean of all columns\n\n# 4.2 Verify sample mean unbiased\n(Ybar <- mean(Y))\n(ybar <- mean(y))\n(ybar == Ybar) # test if mean is unbiased\n\n\n### 4.3 Verify our variance formula\n\n(S2 = var(Y)) # variance of sample\n(s2 = var(y)) # variance of population\n(var2 = s2 / n * (N - n) / N) # formula of Var(Ybar) from notes\nS2; var2\n\n### 4.4 Verify sample variance is unbiased\n\n# random sampling without replacement size 3\nY <- apply(combn(y, 3), 2, var) # get variance of all columns\nvar(y); mean(Y)\nvar(y) == mean(Y)\n\n### 4.5 Verify Var(Ybar)  = (N-1)/N * s2/n\n\n# random sampling with replacement size 2",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569561395162,
+      "content": "nvm that i was lost",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569561017684,
+      "content": "nvr mind ignore me for that question",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569561006700,
+      "content": "Nooo dude I am actually more lost now",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569553686061,
+      "content": "talking about q4 btw",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569553658582,
+      "content": "*for E(S^2)",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569553642214,
+      "content": "did you get around 13.5 var E(var)",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569553606872,
+      "content": "i should be close approximation",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569553591044,
+      "content": "or should i be a close approximation",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569553583654,
+      "content": "*E(sample var) = pop var",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569553573059,
+      "content": "should E(pop var) == sample var",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569553571728,
+      "content": "I am not sure if it's right",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569553557994,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/70833056_391004028504756_8470075493721309184_n_2532790313467683.png",
+          "creation_timestamp": 1569553556
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569553553691,
+      "content": "somewht",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569553551510,
+      "content": "yes",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569553545088,
+      "content": "do you understand whats going on in the R code?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569553524472,
+      "content": "?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569553523464,
+      "content": "wbu",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569553522130,
+      "content": "not too much",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569553504059,
+      "content": "how much of the code have you done",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569451115488,
+      "content": "Coming",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569436182445,
+      "content": "wya",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569381563375,
+      "content": "https://usermanual.wiki/",
+      "share": {
+        "link": "https://usermanual.wiki/"
+      },
+      "type": "Share"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569381198657,
+      "gifs": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/gifs/21125941_1792400540779395_3443229372297773056_n_476503806537955.gif"
+        }
+      ],
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Abhinav Chaudhary"
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569380198744,
+      "gifs": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/gifs/62020739_341477486727959_3906533404392292352_n_499769874134573.gif"
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569380185370,
+      "gifs": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/gifs/61253300_710610239390324_2626263830241476608_n_759074137859050.gif"
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569380177217,
+      "content": "https://math.stackexchange.com/questions/2658616/obtaining-consistent-estimators-based-on-uniform-distribution",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569374262960,
+      "content": "pg 4",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569374255332,
+      "content": "http://personal.psu.edu/drh20/asymp/soln09.pdf",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569264528225,
+      "sticker": {
+        "uri": "messages/stickers_used/19366825_467992650231340_6694518425663832064_n_467992643564674.png"
+      },
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569264500307,
+      "content": "Aight ill go to his office hours",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569264110234,
+      "content": "Instead",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569264106069,
+      "content": "Bt he said to ask the TA",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569264097970,
+      "sticker": {
+        "uri": "messages/stickers_used/39178562_1505197616293642_5411344281094848512_n_369239263222822.png"
+      },
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569264084038,
+      "content": "Ask him about 6 for hw1",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569201170540,
+      "content": "as n -> inf the variance approaches 0",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569201014941,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/71402682_400064097321914_7655893644523601920_n_400064093988581.png",
+          "creation_timestamp": 1569201014
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569200867194,
+      "content": "pg 51, 49 resp.",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569200854773,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/71858850_2463934920341999_1922553491994181632_n_2463934910342000.png",
+          "creation_timestamp": 1569200854
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1569200851508,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/70878688_500753830718176_5787394918699761664_n_500753827384843.png",
+          "creation_timestamp": 1569200851
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569200127633,
+      "files": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/files/d93assign2_fall_20191_676566362853425.pdf",
+          "creation_timestamp": 1569200125
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1569200082566,
+      "files": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/files/book_678316969333332.pdf",
+          "creation_timestamp": 1569200071
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1568407309038,
+      "content": "# Expected length of Wald CI\nConfLevel <- 0.95\npi <- 0.8\nalpha <- 1-ConfLevel\nz <- qnorm(1-alpha/2)\nn <- 20\ny <- 0:n\nphat <- y/n\nse.wald <- sqrt((phat*(1-phat))/n)\nwald.lower <- phat- z*se.wald\nwald.upper <- phat+ z*se.wald\np <- rbinom(y, n, pi)\np\n\n\nlength_CI <- wald.upper-wald.lower\nlength_x_p <- length_CI*p\nE_length_CI_Wald <- sum(length_CI*p)\nE_length_CI_Wald",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1567799579709,
+      "files": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/files/Rd_Edition_Victor_J_Katz_A_History_of_M_376174293298591.pdf",
+          "creation_timestamp": 1567799551
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1566005023993,
+      "content": "Mcdonolds",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1565925369116,
+      "sticker": {
+        "uri": "messages/stickers_used/39178562_1505197616293642_5411344281094848512_n_369239263222822.png"
+      },
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1565925366496,
+      "content": "9.80$",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1565925355161,
+      "content": "talk2abhin@gmail.com",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1565925344250,
+      "content": "McDonals night",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1564788699472,
+      "content": "Aight",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1564788690375,
+      "content": "Reach soon",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1564788686575,
+      "content": "Soooo Ahmad left ...\u00f0\u009f\u0098\u009e\u00f0\u009f\u0098\u009e\u00f0\u009f\u0098\u009e... you busin alone fam",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1564012828900,
+      "content": "You called Abhinav.",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1564012806660,
+      "content": "You missed a call from Abhinav.",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1563301648776,
+      "content": "https://drive.google.com/open?id=1Y_f2ZvHore8421CE1dbasVCOhMMvHAUs",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1562381702926,
+      "content": "Iloveyou3000",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0098\u008d",
+          "actor": "Anthony Inthavong"
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1562381695652,
+      "content": "the password is",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1562381437225,
+      "content": "Anthonyin98@hotmail.ca",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1562380913869,
+      "content": "anthony send me your email .... so I can e-transfer you",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1562171756514,
+      "content": "I am not sure ... I think he just didn\u00e2\u0080\u0099t wanna take it",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1562162110920,
+      "content": "Did it have anything todo with prereqs?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1562161541318,
+      "content": "Why tho?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1562160833494,
+      "content": "He dropped it too",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1562160209788,
+      "content": "\u00f0\u009f\u0098\u0082",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1562160143203,
+      "content": "i guess only ahmed is taking it then",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1562159958129,
+      "content": "Lol",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1562159951834,
+      "content": "Noo I am taking stac50 in the fall",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1562159935997,
+      "content": "Oh i thought u were",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1562159918763,
+      "content": "\u00f0\u009f\u0098\u0082\u00f0\u009f\u0098\u0082\u00f0\u009f\u0098\u0082 good thing I am not in it",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1562155517180,
+      "content": "Sta303 started today",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1562010893127,
+      "content": "Same",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1562010874422,
+      "content": "We ll meeg u at york mills then",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1562010857011,
+      "content": "Same",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1562010842503,
+      "content": "On 95",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1562010822052,
+      "content": "Bruhhh wya",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1561593570932,
+      "content": "So might do one more year",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Abhinav Chaudhary"
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1561593570350,
+      "content": "Also i might not get into advance machine learning",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1561581096170,
+      "content": "I\u00e2\u0080\u0099ll enroll in it",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1561580969811,
+      "content": "So if u drop fall u do wintet",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1561580961545,
+      "content": "Dude enroll in both semesters",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1561573048284,
+      "content": "Youre funny anthony",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1561573042961,
+      "sticker": {
+        "uri": "messages/stickers_used/851575_126362140881916_1086262136_n_126362137548583.png"
+      },
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1561572960839,
+      "content": "Take it fall?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1561572956990,
+      "content": "Lol",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1561572167041,
+      "content": "\u00f0\u009f\u0098\u0082\u00f0\u009f\u0098\u0082 I don\u00e2\u0080\u0099t have that",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1561571911440,
+      "content": "U just need c11",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1561571879760,
+      "content": "Hmmm let me think about it",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1561571750761,
+      "content": "Analysis of big data",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1561571675626,
+      "content": "Idk wven know what that iss",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1561567262901,
+      "content": "Are u plannning on taking stad80?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1561505542208,
+      "content": "thats what my timetable looks like rn",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1561505534943,
+      "content": "https://ttb.utoronto.ca/ttb/#!/?t=5d12aef5e4b0acd1ed6d3324",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Abhinav Chaudhary"
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1561487115458,
+      "content": "Ken emailed me back because there was a enrolment block on acorn for STAC32 for the fall ; he said cms students can't take it since it won't count towards there degree and should instead take STAC33 which is in winter instead",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1559417370288,
+      "content": "It's funny when its relatable",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1559417084425,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/61574613_446909022709052_595586340456759296_n_446909002709054.jpg",
+          "creation_timestamp": 1559417084
+        }
+      ],
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0098\u0086",
+          "actor": "Abhinav Chaudhary"
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1558552442745,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/61531119_328962987799007_4426484597672378368_n_328962961132343.jpg",
+          "creation_timestamp": 1558552442
+        }
+      ],
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Abhinav Chaudhary"
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1557598336543,
+      "sticker": {
+        "uri": "messages/stickers_used/851580_147663508749246_1605922532_n_147663505415913.png"
+      },
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1557598308421,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/59855980_2337179236542147_3029419478170468352_n_326703204660262.jpg",
+          "creation_timestamp": 1557598307
+        }
+      ],
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0098\u0086",
+          "actor": "Abhinav Chaudhary"
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1557598122392,
+      "content": "\u00f0\u009f\u0098\u0082\u00f0\u009f\u0098\u0082\u00f0\u009f\u0098\u0082",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1557598055653,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/59926641_2318500511755863_8225389914083033088_n_2318500505089197.png",
+          "creation_timestamp": 1557598053
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1557172826067,
+      "content": "Ok not gonna see it then",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1557169149569,
+      "content": "its kind of like when they showed hulk in thor ragnorok",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1557169136671,
+      "content": "you might spoil it for yourself tho",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1557168952788,
+      "content": "Whooo I haven\u00e2\u0080\u0099t seen it .... let me go look",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1557167399885,
+      "content": "completely different tone compared to the first one",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1557167390496,
+      "content": "like the new spiderman trailer",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1557165690025,
+      "content": "By the way",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1557165684740,
+      "content": "How d u doo brw",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1557165679510,
+      "content": "How",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1557163039453,
+      "content": "did you know marvel spoils their own films",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1556315741315,
+      "content": "Whixh bus is it",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1556315389319,
+      "content": "oki",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1556314816289,
+      "content": "Ill see you 12 minutes",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1556311834935,
+      "content": "545 sounds good",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1556311827775,
+      "content": "Was taking a shower",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1556311283911,
+      "content": "Oki \u00f0\u009f\u0099\u0083 5:45 and Ellesmere and Morningside",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0098\u008d",
+          "actor": "Anthony Inthavong"
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1556309813006,
+      "content": "Also im going with you",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1556309805586,
+      "content": "What time are you leaving",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1556167872332,
+      "content": "But preference",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Abhinav Chaudhary"
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1556167866382,
+      "content": "It might be better to hole punch",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1556162645655,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/58382080_290066731923810_971093282446639104_n_797814800597638.jpg",
+          "creation_timestamp": 1556162645
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1556158209700,
+      "content": "https://www.reddit.com/r/marvelstudios/comments/bgzn2f/no_spoilers_i_love_the_avengers_fans_a_breath/",
+      "share": {
+        "link": "https://www.reddit.com/r/marvelstudios/comments/bgzn2f/no_spoilers_i_love_the_avengers_fans_a_breath/"
+      },
+      "type": "Share"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1555202696702,
+      "content": "17.65$",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1555202687322,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/56917899_390841554841906_6852846141558489088_n_275150910038430.jpg",
+          "creation_timestamp": 1555202687
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1554901066260,
+      "content": "Wher3s our 3xam ?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1554898579532,
+      "files": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/files/newdoc20190410081504_20190410081603_623087364786182.pdf",
+          "creation_timestamp": 1554898576
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1554898536385,
+      "files": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/files/newdoc20190410081504_20190410081518_572416889932973.pdf",
+          "creation_timestamp": 1554898533
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1553382471988,
+      "content": "mydata = read.csv(\"/Users/inthavo2/Downloads/housing.proper.csv\", TRUE, sep=\",\")",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Abhinav Chaudhary"
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1553056339376,
+      "content": "\u00f0\u009f\u0098\u0082\u00f0\u009f\u0098\u0082\u00f0\u009f\u0098\u0082\u00f0\u009f\u0098\u0082",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1553056331881,
+      "content": "selling my prepurchased ticket",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1553056317158,
+      "content": "movie is no longer worth seeing",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1553056306036,
+      "content": "awww man I was hoping this would happen",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1553056300028,
+      "content": "0/10 -ign",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1553056278384,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/54132982_370330703562444_5763673054114742272_n_370330700229111.png",
+          "creation_timestamp": 1553056277
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1551290931447,
+      "content": "And then just change it to whatever you want",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1551290918846,
+      "content": "Colour",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1551290915667,
+      "content": "Accessiblity",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1551290908235,
+      "content": "Preference",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1551290902870,
+      "content": "So edit",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1551256177813,
+      "content": "how do you invert the slides?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1549612870431,
+      "content": "ln(1 - x) can be negative",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1549612791353,
+      "content": "nvm",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1549612383214,
+      "content": "can your C be imaginary interval?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1549612372771,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/51668551_2358671224361717_621004708533764096_n_2358671221028384.png",
+          "creation_timestamp": 1549612372
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1549611083211,
+      "content": "ty",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1549611018180,
+      "files": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/files/exam2014_1734709146635561.pdf",
+          "creation_timestamp": 1549611014
+        },
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/files/exam2015_349931722522988.pdf",
+          "creation_timestamp": 1549611014
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1549607761082,
+      "content": "or is 2015 the only one we have?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1549607581243,
+      "content": "can you send the solutions for stac58",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1548876293484,
+      "content": "\u00f0\u009f\u0098\u0082\u00f0\u009f\u0098\u0082\u00f0\u009f\u0098\u0082\u00f0\u009f\u0098\u0082",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1548876115034,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/50725419_566820467132194_4370847664334438400_n_401092920438450.png",
+          "creation_timestamp": 1548876114
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1548876114502,
+      "content": "When you make plans and your friends blow you off",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1548867022219,
+      "gifs": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/gifs/20272465_10214200000379739_7321054493729095680_n_1155843724586555.gif"
+        }
+      ],
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0098\u0086",
+          "actor": "Abhinav Chaudhary"
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1548866903098,
+      "content": "lol ok",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1548866884502,
+      "content": "Stop skipping class",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1548866856431,
+      "content": "*anthony",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1548866849609,
+      "content": "No prob",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1548866772109,
+      "content": "Thanks you ?????",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1548824737144,
+      "content": "<3",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1548824732238,
+      "content": "-jacky",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1548824730238,
+      "content": "fuck you",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1548800213456,
+      "content": "please send this to all ur friends $0.05 will be donated for every send.",
+      "type": "Share"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1548646382813,
+      "content": "not sure will check in the morning nd get back to u",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1548645008847,
+      "content": "nvm",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1548644888922,
+      "content": "x_i - x_bar",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1548644884194,
+      "content": "can you do the proof",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1548644874317,
+      "sticker": {
+        "uri": "messages/stickers_used/39178562_1505197616293642_5411344281094848512_n_369239263222822.png"
+      },
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1548644870840,
+      "content": "ohh the n cancel out then",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1548644847775,
+      "content": "nvm just change x_bar to sum_xi",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1548644765853,
+      "content": "wait u might be right",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1548644746769,
+      "content": "we have yi",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1548644672649,
+      "content": "without n",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1548644667298,
+      "content": "how they do this",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1548644665014,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/50829558_239994150258073_380386334075781120_n_239994146924740.png",
+          "creation_timestamp": 1548644663
+        },
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/51001600_620815681683596_396511574040248320_n_620815675016930.png",
+          "creation_timestamp": 1548644663
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1548641099668,
+      "sticker": {
+        "uri": "messages/stickers_used/851587_369239346556147_162929011_n_369239343222814.png"
+      },
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1548641057143,
+      "content": "thats the minimum function or the critical point",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1548641039972,
+      "content": "when does its derivative take the value 0",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1548641024789,
+      "content": "for it to be minimum",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1548641023262,
+      "content": "whats it mean by minimum function",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1548641015707,
+      "content": "ie. Q(b0,b1 ) = ................... = 0",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1548640996700,
+      "content": "= 0",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1548640965999,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/50962671_229357714680328_7303955816606859264_n_229357711346995.png",
+          "creation_timestamp": 1548640965
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1548640965194,
+      "content": "what does this mean",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1548638280382,
+      "content": "Sand urs when done",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1548638272273,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/51240464_444927296044957_2135692317800005632_n_444927286044958.jpg",
+          "creation_timestamp": 1548638271
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1548638269337,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/50802638_2073574266044350_8478618810738278400_n_2073574182711025.jpg",
+          "creation_timestamp": 1548638268
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1548638160952,
+      "content": "yess I'll send",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1548637386669,
+      "content": "you finish ur cheat sheet?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1548561028889,
+      "content": "i feel power in the words",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1548561018212,
+      "content": "it is boi",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1548560802076,
+      "content": "its true tho",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1548560785719,
+      "content": "Lol \u00f0\u009f\u0098\u0082 thats me at the end of semester",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1548560597099,
+      "content": "you dont pass by understanding, just repeating what someone else said",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1548560554904,
+      "content": "Nope \u00f0\u009f\u0091\u008e it takes time understand fam .... i am not smart",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1548560514436,
+      "content": "google everything",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0098\u0086",
+          "actor": "Abhinav Chaudhary"
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1548560508847,
+      "content": "c44 is ez",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1548560504484,
+      "content": "At least u got work done",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1548560495795,
+      "content": "Bruhhh I was doing c44 today",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1548560478351,
+      "content": "i started studying yesterday",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1548560468976,
+      "content": "U ready",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1548560465023,
+      "content": "Wbu",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1548560462251,
+      "content": "\u00f0\u009f\u0098\u0082",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1548560460450,
+      "content": "Yeah",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1548560457115,
+      "content": "\u00f0\u009f\u0098\u0082\u00f0\u009f\u0098\u0082\u00f0\u009f\u0098\u0082",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1548560446214,
+      "content": "tmi",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1548560433724,
+      "content": "Yeah i have a dildo and a lube ready to get fucked",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1548560402158,
+      "content": "you ready for the term test monday?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1548560347255,
+      "content": "Nope \u00e2\u0098\u00b9\u00ef\u00b8\u008f",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1548560081159,
+      "content": "there a gc for stac67?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1548200884641,
+      "gifs": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/gifs/27020153_10211226678562916_197501472651345920_n_1345780778898488.gif"
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1548198621488,
+      "content": "Thats me right there",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1548198604785,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/50999234_420868591986833_4382042728519696384_n_420868578653501.jpg",
+          "creation_timestamp": 1548198604
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1544485108093,
+      "content": "*chair",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1544485094478,
+      "content": "https://www.youtube.com/watch?v=qJz18c6gw8c&feature=share",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0098\u0086",
+          "actor": "Abhinav Chaudhary"
+        }
+      ],
+      "share": {
+        "link": "https://www.youtube.com/watch?v=qJz18c6gw8c"
+      },
+      "type": "Share"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1543702066899,
+      "content": "https://drive.google.com/drive/folders/1WfavKUVXAdVSzWiTgsCHv9aMtTzfd2Uc",
+      "share": {
+        "link": "https://drive.google.com/drive/folders/1WfavKUVXAdVSzWiTgsCHv9aMtTzfd2Uc"
+      },
+      "type": "Share"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1543701466678,
+      "content": "Incoming fire! Captain Anthony just fired at Abhinav!",
+      "type": "Share"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1543701418738,
+      "content": "Check out the damage that Abhinav did to Anthony's fleet!",
+      "type": "Share"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1543701383171,
+      "content": "Incoming fire! Captain Anthony just fired at Abhinav!",
+      "type": "Share"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1543701348382,
+      "content": "Check out the damage that Abhinav did to Anthony's fleet!",
+      "type": "Share"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1543701276263,
+      "content": "Incoming fire! Captain Anthony just fired at Abhinav!",
+      "type": "Share"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1543701187177,
+      "content": "Abhinav doesn't think you can win at Battleship! Can you prove them wrong?",
+      "type": "Share"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1543701096883,
+      "content": "Anthony doesn't think you can win at Battleship! Can you prove them wrong?",
+      "type": "Share"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1543701088442,
+      "content": "Abhinav doesn't think you can win at Battleship! Can you prove them wrong?",
+      "type": "Share"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1543449115925,
+      "sticker": {
+        "uri": "messages/stickers_used/39178562_1505197616293642_5411344281094848512_n_369239263222822.png"
+      },
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1543354500489,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/47183160_556580871433964_1913596122950008832_n_556580851433966.jpg",
+          "creation_timestamp": 1543354500
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1543354497398,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/46836978_187457968870104_3538897462418735104_n_187457928870108.jpg",
+          "creation_timestamp": 1543354496
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1543354493597,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/46485774_332369607559897_2812522242448031744_n_332369567559901.jpg",
+          "creation_timestamp": 1543354493
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1543354488106,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/46902849_339846030133108_8064113333772484608_n_339845973466447.jpg",
+          "creation_timestamp": 1543354487
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1543354476758,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/46783743_299051744071193_3123002129740988416_n_299051707404530.jpg",
+          "creation_timestamp": 1543354476
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1543354474352,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/46891376_1782882235171787_2102442609434689536_n_1782882171838460.jpg",
+          "creation_timestamp": 1543354473
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1543354470838,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/47047994_263311774334086_4667691760607035392_n_263311764334087.jpg",
+          "creation_timestamp": 1543354470
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1543354468620,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/46836963_1265849113557679_5524988175149170688_n_1265849093557681.jpg",
+          "creation_timestamp": 1543354468
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1543354465584,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/46917575_356566051745028_4073568333255933952_n_356566028411697.jpg",
+          "creation_timestamp": 1543354465
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1543354462680,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/46998719_418387085362990_6854250033223565312_n_418387062029659.jpg",
+          "creation_timestamp": 1543354462
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1542668548975,
+      "content": "http://www.ams.sunysb.edu/~jiao/teaching/ams526_fall11/lectures/lecture13.pdf",
+      "share": {
+        "link": "http://www.ams.sunysb.edu/~jiao/teaching/ams526_fall11/lectures/lecture13.pdf"
+      },
+      "type": "Share"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1542593277280,
+      "content": "email : talk2abhin@gmail.com\nsecurity : HakkaLegend\n\nAnthony : 15.50",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1542593259630,
+      "content": "got it",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1542591882603,
+      "content": "I think",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1542591874517,
+      "content": "chill chicken with rice",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1542591631454,
+      "content": "wat did u order",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1542243139765,
+      "content": "Make sure u change words",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1542243115795,
+      "content": "U hv my blessings",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1542242708771,
+      "content": "so I can copy it",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1542242701558,
+      "content": "aight",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1542242701535,
+      "content": "Lyla",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1542242698382,
+      "content": "And u",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1542242696453,
+      "content": "And ahmad",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1542242693012,
+      "content": "I think athiya sulyaman",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1542242680051,
+      "content": "like the dirchlet proof",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1542242616656,
+      "content": "for 6 specifically",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1542242612049,
+      "content": "how many people have ur answers?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1542240711888,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/46253078_2088932441165171_6316071681639055360_n_2088932401165175.jpg",
+          "creation_timestamp": 1542240711
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1542240709503,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/46228463_1099436480236615_5689479980862406656_n_1099436453569951.jpg",
+          "creation_timestamp": 1542240709
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1542240699987,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/46237054_492646704579288_1991138630743097344_n_492646664579292.jpg",
+          "creation_timestamp": 1542240699
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1542240697720,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/46208164_288090565161445_2084711846270468096_n_288090551828113.jpg",
+          "creation_timestamp": 1542240697
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1542240694911,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/46289326_1893418747409601_7332734957938278400_n_1893418580742951.jpg",
+          "creation_timestamp": 1542240694
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1542240692686,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/46192583_506626216485051_3450755559454670848_n_506626196485053.jpg",
+          "creation_timestamp": 1542240692
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1542240689954,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/46221258_358968051339055_3087656674903719936_n_358968041339056.jpg",
+          "creation_timestamp": 1542240689
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1542240685502,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/46180223_480198462468888_5782568127078334464_n_480198429135558.jpg",
+          "creation_timestamp": 1542240685
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1542240679125,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/46222509_187448025468492_6613618121028665344_n_187447992135162.jpg",
+          "creation_timestamp": 1542240678
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1542240676245,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/46255403_416141128920647_8764304410177175552_n_416141102253983.jpg",
+          "creation_timestamp": 1542240675
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1542234772212,
+      "content": "where u",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1541205288913,
+      "content": "Its fine I don\u00e2\u0080\u0099t want anything",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1538765085561,
+      "sticker": {
+        "uri": "messages/stickers_used/39178562_1505197616293642_5411344281094848512_n_369239263222822.png"
+      },
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1538764359619,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/43186999_322028621711403_6005344228136189952_n_322028475044751.jpg",
+          "creation_timestamp": 1538764357
+        },
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/43178823_261521544705813_8653429318329827328_n_261521501372484.jpg",
+          "creation_timestamp": 1538764358
+        },
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/43140810_2151005924974580_338223481944539136_n_2151005741641265.jpg",
+          "creation_timestamp": 1538764357
+        },
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/43258988_1247902285349377_2893001215086428160_n_1247902262016046.jpg",
+          "creation_timestamp": 1538764358
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1538720226689,
+      "content": "well see",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1538720217949,
+      "content": "I'll see you tommorow",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1538720205494,
+      "content": "naah I think I am good ..... I don't wanna write something that I don't understand and then come to bite me in the ass later",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1538720148584,
+      "content": "google is a reliable source of information",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1538720037805,
+      "content": "do you need help explaining?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1538720023226,
+      "content": "we are all",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1538720016210,
+      "content": "inside",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1538720012947,
+      "content": "breh I am dead",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1538719911200,
+      "content": "after sleeping",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1538719905261,
+      "content": "just do it",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1538719810993,
+      "content": "lolz",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1538719803328,
+      "content": "I am just gonna take a 0",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1538719793935,
+      "content": "fuck no I gave up on the codding I got somethings in but don't understand it",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1538719765442,
+      "content": "did you finsih",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1538719699231,
+      "content": "ya",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1538575199199,
+      "content": "Were u up all night",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1538561459323,
+      "content": "gonna do last one today",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1538561455600,
+      "content": "already finished first two parts",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1538561442964,
+      "content": "cscc11 isn't too bad",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1538536028356,
+      "content": "far",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1538535993177,
+      "content": "its literally 2 weeks away fam",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1538535971045,
+      "content": "lol so far",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1538535962415,
+      "content": "Oct 20",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1538535856334,
+      "content": "whens the midterm for cscc11?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1537137140421,
+      "content": "Bv?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1537136728456,
+      "content": "so basically i did everything wrong",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1537136714052,
+      "content": "ohh boi ok",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1537135781681,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/41843147_446051205905108_5342083157443215360_n_446051192571776.jpg",
+          "creation_timestamp": 1537135781
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1537135744355,
+      "content": "in his notes its all equal to breh",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1537135719116,
+      "content": "Yes it is",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1537135711324,
+      "content": "but that wasn't the defination",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1537135657696,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/41982691_291342304784432_3725635231630229504_n_291342291451100.jpg",
+          "creation_timestamp": 1537135657
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1537135623227,
+      "content": "I am in BV",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1537135599677,
+      "content": "Now",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1537135566299,
+      "content": "please and thnank you",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1537135549498,
+      "content": "ok you know what when you on campus hmu",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1537135521910,
+      "content": "So if we take the intersection from the j greater than or equal to n",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1537135510843,
+      "content": "but they have no intersection",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1537135496402,
+      "content": "Its saying take the union of the intersection",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1537135489663,
+      "content": "wait go on",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1537135482856,
+      "content": "ok",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1537135482465,
+      "content": "Like for lim inf",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1537135473587,
+      "content": "Basically just go by def of the lim",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1537135453726,
+      "content": "Oh wait nvm im baked",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1537130131518,
+      "content": "Should be (2n-1)/n",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1537130112032,
+      "content": "Thats not how it works",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1537130024656,
+      "content": "split the denominator",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1537128571579,
+      "content": "Howd u get 2-1/n",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1537128516923,
+      "content": "Not just equal",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1537128508627,
+      "content": "Its i greater than or equal to n",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1537128489313,
+      "content": "Follow the def of limsup and liminf",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1537128464966,
+      "content": "Just do it",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Abhinav Chaudhary"
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1537128455510,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/41849016_720687401603451_4331124495361245184_n_720687368270121.jpg",
+          "creation_timestamp": 1537128455
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1537127338260,
+      "sticker": {
+        "uri": "messages/stickers_used/39178562_1505197616293642_5411344281094848512_n_369239263222822.png"
+      },
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1537127326239,
+      "content": "I\u00e2\u0080\u0099ll send it to u in 10 min",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1537127238520,
+      "content": "Or repeat the question",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1537127222202,
+      "content": "Stac62",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1537127218974,
+      "content": "Send a pic",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1537127196081,
+      "content": "?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1537124870545,
+      "content": "breh did you fugure out Q3.a by any chance",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1536942582232,
+      "content": "Alright thanks",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1536942305491,
+      "content": "from the lecture",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1536942299535,
+      "content": "I did'nt really take note he was litterally going over the linear regression thing",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1536941906885,
+      "content": "Can u send notes tho, i forgot mine was at 9am to and didnt go",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1536941898835,
+      "content": "no i hv it on tuesday",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1536941879506,
+      "content": "Friday?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1536941860976,
+      "content": "sortirous",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1536941855866,
+      "content": "yeah you have no idea who was our ta",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1536941808973,
+      "content": "Did u go to tutorial for cscc11 this week?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1535778878947,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/40570657_1879127468832350_4029096751519498240_n_1879127405499023.jpg",
+          "creation_timestamp": 1535778878
+        }
+      ],
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0098\u0086",
+          "actor": "Abhinav Chaudhary"
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1535778830283,
+      "content": "LOL",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1535778757680,
+      "content": "https://www.change.org/p/university-of-toronto-give-us-back-our-marks",
+      "share": {
+        "link": "https://www.change.org/p/university-of-toronto-give-us-back-our-marks"
+      },
+      "type": "Share"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1535767528005,
+      "content": "true",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1535767500988,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/40579052_259752914672520_5200268405390704640_n_259752911339187.png",
+          "creation_timestamp": 1535767500
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1535767341009,
+      "content": "so glad I downloaded the syllabus",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1535767333032,
+      "content": "so I couldn't even see the marking scheme for the class",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1535767321573,
+      "content": "he faking removed his content page from blackboard to",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1535767287395,
+      "content": "dude someone should report him to the registrar or something",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1535767274606,
+      "content": "the marking scheme is just bs",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1535767259865,
+      "content": "like I took b20 with the guy and he did the same shit",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1535767208548,
+      "content": "the guy on the first reddit post got a 64",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1535767133166,
+      "content": "excluding the final",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1535767122686,
+      "content": "average should be around 65 judging by the averages of the term tests",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1535767059911,
+      "content": "cause I'm not even using it for a prereq for anything",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1535767040181,
+      "content": "fk",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1535767039274,
+      "content": "I should have waited till fall to take it",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1535766996711,
+      "content": "lol",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1535766993101,
+      "content": "70",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1535766987876,
+      "content": "wbu",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1535766986274,
+      "content": "breh",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1535766985704,
+      "content": "I got 57",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1535766983852,
+      "content": "people are angry",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1535766972134,
+      "content": "https://www.reddit.com/r/UTSC/",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1535766961234,
+      "content": "tho I'm sure I'm lower cause of my term test marks",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1535766951165,
+      "content": "Idk cause the class average isn't up yet",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1535766935046,
+      "content": "?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1535766932795,
+      "content": "then did abbas curve down the whole class",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1535766874936,
+      "content": "none wtf",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1535766866982,
+      "content": "wait so is the department allowed to curve down",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1535766761999,
+      "content": "bruh no they don't",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1535766753932,
+      "content": "\"Other profs do the same when the class average is too high\"",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1535766687872,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/40432670_2137765083212624_2533909449123299328_n_2137765079879291.png",
+          "creation_timestamp": 1535766685
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1535766611117,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/40460135_1091753720987419_546108952861999104_n_385758551956214.jpg",
+          "creation_timestamp": 1535766610
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1535766609323,
+      "content": "And that just doesnt seem right",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1535766603581,
+      "content": "I got a 44 on the final",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1535766596836,
+      "content": "Well if i added my marks up correctly",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1535766580489,
+      "content": "really",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1535766571589,
+      "content": "I think i mihht remark tho",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1535766561016,
+      "content": "Ya",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1535766520401,
+      "content": "yeah wbu ?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1535766478546,
+      "content": "U pass?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1535766443007,
+      "content": "Yeah I thiught I would have done better",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1535763502138,
+      "content": "b07 marks are out",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1535041203509,
+      "content": "whats factory method",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1535041194781,
+      "content": "Ya",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1535041181101,
+      "content": "Are you on campus",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1535041175517,
+      "content": "I don't get it",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1535041171664,
+      "content": "I am leaving that topic",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1535039310767,
+      "content": "Whats publish subscribe",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1534960862269,
+      "content": "Just now",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1534960859756,
+      "content": "Lucky i woke up",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1534960853273,
+      "content": "2 to 4",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1534960850752,
+      "content": "Oh",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1534959811248,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/39913596_221884845340763_8896887001177915392_n_221884842007430.png",
+          "creation_timestamp": 1534959810
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1534899018419,
+      "files": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/files/OneDrive_1_8212018_258078161500891.zip",
+          "creation_timestamp": 1534899015
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1531419484998,
+      "content": "yup",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1531419471469,
+      "content": "ur also taking stac62 right?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1531419291292,
+      "content": "cscc11 and stac32 for me",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1531419256840,
+      "content": "Yeah I got into everything except cscc11",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1531419153536,
+      "content": "stat courses filling up",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1531419149248,
+      "content": "course enrolments today",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1531419144695,
+      "content": "yo",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1531159497502,
+      "content": "Max of 3 csc electives at c or d level",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1531159482442,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/36846151_1947499738636130_5963267266760933376_n_1947499735302797.png",
+          "creation_timestamp": 1531159481
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1528661135112,
+      "content": "the form is up now",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1528649183274,
+      "content": "He didn\u00e2\u0080\u0099t say anything about it yet",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1528649165391,
+      "content": "Naah I don\u00e2\u0080\u0099t know",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1528649158240,
+      "content": "Sorry man just woke up",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1528644771672,
+      "content": "nvm",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1528637492126,
+      "content": "You know how to make groups for a2?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1528498904549,
+      "content": ":)",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1528497877205,
+      "content": "yeah I doo",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1528401659746,
+      "content": "you have people for a2?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1528314788747,
+      "content": "library",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1528314779500,
+      "content": "where u",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1528314238306,
+      "content": "https://piazza.com/class/jh9lpqaug7t41d?cid=133",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1528314116447,
+      "content": "send link pls",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1526584040043,
+      "content": "just do it",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Abhinav Chaudhary"
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1526583948560,
+      "content": "Thinking of starting today",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1526583936588,
+      "content": "I read it half way",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1526583909405,
+      "content": "have you?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1526583897488,
+      "content": "Hmmm",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1526583881067,
+      "content": "little bit",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1526583863758,
+      "content": "Did u start a0",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1526583854179,
+      "content": "Lol",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1526583835459,
+      "content": "much popular",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1526583830986,
+      "content": "so social",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1526583828769,
+      "content": "You know so many people",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1526583784925,
+      "content": "And a couple other people",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1526583778178,
+      "content": "Victor",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1526583775537,
+      "content": "Cbo",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1526583773554,
+      "content": "Yeah",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1526583764009,
+      "content": "other than me",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1526583761922,
+      "content": "you know anyone in the class?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1526583743745,
+      "content": "Ohhh",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1526583733696,
+      "content": "then after people got kicked there was still room in the class",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1526583733646,
+      "content": "Yeah but they opened up soo much space",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1526583697243,
+      "content": "I was like 47 on waitlist",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1526583689034,
+      "content": "so many people got kicked before the wait list deadline",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1526583676644,
+      "content": "Wbu ?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Abhinav Chaudhary",
+      "timestamp_ms": 1526583673051,
+      "content": "Yeah i got in",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1526583653575,
+      "content": "b07?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1524063155759,
+      "photos": [
+        {
+          "uri": "messages/inbox/AbhinavChaudhary_qIo-lRAutA/photos/30849114_1849439611775477_1688880672_o_1849439611775477.jpg",
+          "creation_timestamp": 1524063155
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Anthony Inthavong",
+      "timestamp_ms": 1521265170149,
+      "content": "Say hi to your new Facebook friend, Abhinav.",
+      "type": "Generic"
+    }
+  ],
+  "title": "Abhinav Chaudhary",
+  "is_still_participant": true,
+  "thread_type": "Regular",
+  "thread_path": "inbox/AbhinavChaudhary_qIo-lRAutA"
+}
