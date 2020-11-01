@@ -139,7 +139,7 @@ def get_message_by_day_week_group(d):
         WHEN '5' THEN 'Friday'
         WHEN '6' THEN 'Saturday'
         END,
-        round(count(day)*(100.0) / (SELECT COUNT(timestamp_ms) from messages), 2) as percentage
+        count(day)
     FROM 
     (
         SELECT strftime('%w', timestamp_ms / 1000, 'unixepoch', 'localtime') AS day 
@@ -161,23 +161,36 @@ def get_message_by_day_week_g(d):
         }
     }
     """
-    df = pd.DataFrame.from_dict(d["messages"])
-    df['timestamp_ms'] = pd.to_datetime(df['timestamp_ms'], unit='ms')
-    people = get_participants(d)
-    pep = get_participants(d)
-    for p in list(people):
-        people[p] = {'Monday':0, 'Tuesday':0, 'Wednesday':0, 'Thursday':0,'Friday':0,'Saturday':0, 'Sunday':0}
 
-    for time, person in zip(df['timestamp_ms'], df['sender_name']):
-        # Monday == 0
-        v = time.day_name()
-        if person in people:
-            people[person][v] += 1
+    q = """
+    SELECT CASE day
+        WHEN '0' THEN 'Sunday'
+        WHEN '1' THEN 'Monday'
+        WHEN '2' THEN 'Tuesday'
+        WHEN '3' THEN 'Wednesday'
+        WHEN '4' THEN 'Thursday'
+        WHEN '5' THEN 'Friday'
+        WHEN '6' THEN 'Saturday'
+        END,
+        count(day)
+    FROM 
+    (
+        SELECT strftime('%w', timestamp_ms / 1000, 'unixepoch', 'localtime') AS day 
 
-    for human in list(pep) :
-        pep[human] = list(people[human].values())
+        FROM messages where sender_name = '{}'
+    ) GROUP BY day ORDER BY day;
+    """
 
-    return {"message_by_day_week_g": json.dumps(pep)}
+    data = dict()
+
+    # order to return values as list
+    days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+    
+    for name in get_participants():
+        data[name] = {k:v for k,v in db.select(q.format(name))}
+        data[name] = [data[name][d] for d in days]
+
+    return {"message_by_day_week_g": json.dumps(data)}
 
 
 # colour = ["#51BCDA","#CCCCCC", "#cf4e72", "#aa4ecf", "#cfbe4e", "#82a15e" ]
