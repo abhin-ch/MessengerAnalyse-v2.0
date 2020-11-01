@@ -83,7 +83,7 @@ def upload_file():
         end = time.time() - start
 
         # delete database tables
-        # db.delete_database()
+        db.delete_database('messages.db')
 
         # debug
         print('Analysis time:', end)
