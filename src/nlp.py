@@ -142,7 +142,7 @@ def execute2(d):
             #
             interst[name] = generator.sub_interest(p)
         else:
-            print(name)
+            summary[name] = "Sorry, there is not enough information. Please try again when there is more data."
 
     data["big_four"]= big_four
     data["summary"] = summary
