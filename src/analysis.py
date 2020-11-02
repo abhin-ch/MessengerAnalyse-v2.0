@@ -13,6 +13,26 @@ from src.db import DataGateway # importing database class
 
 db = DataGateway('messages.db')
 
+MONTHS = [
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    'October',
+    'November',
+    'December'
+    ]
+
+DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+
+HOURS = ['0'+str(i) if len(str(i))==1 else str(i) for i in range(24)]
+print(HOURS)
+
 def get_participants(d=None):
     """ list of all participants in group chat
     """
@@ -184,11 +204,12 @@ def get_message_by_day_week_g(d):
     data = dict()
 
     # order to return values as list
-    days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
     
     for name in get_participants():
-        data[name] = {k:v for k,v in db.select(q.format(name))}
-        data[name] = [data[name][d] if d in data[name] else 0 for d in days ]
+        d = [0]*7
+        for k,v in db.select(q.format(name)):
+            d[DAYS.index(k)] = v
+        data[name] = d
 
     return {"message_by_day_week_g": json.dumps(data)}
 
@@ -241,6 +262,7 @@ def get_message_by_month(d):
             FROM messages
         ) GROUP BY day ORDER BY day;
     """
+    # data = [v if k == m else 0 for m, (k,v) in zip(MONTHS, db.select(q)) ]
     data = [v for k,v in db.select(q)]
     return {"message_by_month_count": json.dumps(data)}
 
@@ -278,7 +300,10 @@ def get_message_by_month_group(d):
     """
     data = dict()
     for name in get_participants():
-        data[name] = [v for k,v in db.select(q.format(name))]
+        d = [0]*12
+        for k,v in db.select(q.format(name)):
+            d[MONTHS.index(k)] = v
+        data[name] = d
     return {"message_by_month_group": json.dumps(data)}
 
 
@@ -405,8 +430,13 @@ def get_message_by_hour_group(d): #TODO: check if can do faster than iterating t
     """
 
     data = dict()
+    
     for name in get_participants():
-        data[name] = [v for k,v in db.select(q.format(name))]
+        d = [0]*24
+        # order from 0 - 23
+        for k, v in db.select(q.format(name)):
+            d[HOURS.index(k)] = v
+        data[name] = d
     return {"message_by_hour_group": json.dumps(data)}
 
 
