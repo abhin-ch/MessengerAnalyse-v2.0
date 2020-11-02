@@ -31,7 +31,6 @@ MONTHS = [
 DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 
 HOURS = ['0'+str(i) if len(str(i))==1 else str(i) for i in range(24)]
-print(HOURS)
 
 def get_participants(d=None):
     """ list of all participants in group chat
