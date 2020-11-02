@@ -422,12 +422,13 @@ def get_message_by_hour_group(d): #TODO: check if can do faster than iterating t
     SELECT day, count(day)
         FROM 
         (
-            SELECT strftime('%H', timestamp_ms / 1000, 'unixepoch', 'localtime', '-4 hours') AS day 
+            SELECT strftime('%H', 
+                datetime(timestamp_ms / 1000, 'unixepoch', 'localtime', '-4 hours')
+                )  AS day
 
             FROM messages where sender_name ='{}'
         ) GROUP BY day ORDER BY day;
     """
-
     data = dict()
     
     for name in get_participants():
