@@ -501,8 +501,13 @@ def main(d):
     Returns statistical summary as JSON
     """
     summary = dict()
-    data = [
-        personality_insight(d),
+    data = []
+    try:
+        data.append(personality_insight(d))
+    except Exception as e:
+        print(e)
+
+    data += [
         total_message(d),
         total_word(d),
         total_call(d),
